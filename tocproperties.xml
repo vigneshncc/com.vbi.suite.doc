@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?NLS TYPE="org.eclipse.help.toc"?>
+
+<toc label="Properties" link_to="toc.xml#properties"> 
+	<topic label="GridBox">
+		<topic label="Advanced Properties" href="html/properties/GridBox_Properties.html"/>
+	</topic>
+	<topic label="ScriptBox">
+		<topic label="Advanced Properties" href="html/properties/ScriptBox_Properties.html"/>
+	</topic>
+	<topic label="Menu">
+		<topic label="Advanced Properties" href="html/properties/Menu_Properties.html"/>
+	</topic>
+	<topic label="LocationAnalyzer">
+		<topic label="Advanced Properties" href="html/properties/LocationAnalyzer_Properties.html"/>
+	</topic>
+	<topic label="PeriodSelectorYM">
+		<topic label="Advanced Properties" href="html/properties/PeriodSelectorYM_Properties.html"/>
+	</topic>
+	<topic label="PeriodSelectorYQM">
+		<topic label="Advanced Properties" href="html/properties/PeriodSelectorYQM_Properties.html"/>
+	</topic>
+	<topic label="PeriodSelectorYQMM">
+		<topic label="Advanced Properties" href="html/properties/PeriodSelectorYQMM_Properties.html"/>
+	</topic>
+	<topic label="LineChart">
+		<topic label="Advanced Properties" href="html/properties/LineChart_Properties.html"/>
+	</topic>
+	<topic label="ProgressBar">
+		<topic label="Advanced Properties" href="html/properties/ProgressBar_Properties.html"/>
+	</topic>
+	<topic label="StackedColumnBarChart">
+		<topic label="Advanced Properties" href="html/properties/StackedColumnBarChart_Properties.html"/>
+	</topic>
+	<topic label="ColumnBarChart">
+		<topic label="Advanced Properties" href="html/properties/ColumnBarChart_Properties.html"/>
+	</topic>
+	<topic label="PieChart">
+		<topic label="Advanced Properties" href="html/properties/PieChart_Properties.html"/>
+	</topic>
+	<topic label="GroupedandStackedColumnBarChart">
+		<topic label="Advanced Properties" href="html/properties/GroupStackedColumnBarChart_Properties.html"/>
+	</topic> 
+	<topic label="HCMap">
+		<topic label="Advanced Properties" href="html/properties/HCMap_Properties.html"/>
+	</topic>
+	<topic label="NumberCounter">
+		<topic label="Advanced Properties" href="html/properties/NumberCounter_Properties.html"/>
+	</topic>
+	<topic label="CircularCounter">
+		<topic label="Advanced Properties" href="html/properties/CircularCounter_Properties.html"/>
+	</topic>
+	<topic label="FunnelPyramidChart">
+		<topic label="Advanced Properties" href="html/properties/FunnelPyramidChart_Properties.html"/>
+	</topic>
+	<topic label="DonutChart">
+		<topic label="Advanced Properties" href="html/properties/DonutChart_Properties.html"/>
+	</topic>
+	<topic label="SemicircledonutChart">
+		<topic label="Advanced Properties" href="html/properties/SemicircledonutChart_Properties.html"/>
+	</topic>
+	<topic label="CombinationChart">
+		<topic label="Advanced Properties" href="html/properties/CombinationChart_Properties.html"/>
+	</topic>
+	<topic label="AngularGauge">
+		<topic label="Advanced Properties" href="html/properties/AngularGauge_Properties.html"/>
+	</topic>
+	<topic label="FunnelPyramidDrilldownChart">
+		<topic label="Advanced Properties" href="html/properties/FunnelPyramidDrilldownChart_Properties.html"/>
+	</topic>
+	<topic label="SolidGauge">
+		<topic label="Advanced Properties" href="html/properties/SolidGauge_Properties.html"/>
+	</topic>
+	<topic label="CustomLabel">
+		<topic label="Advanced Properties" href="html/properties/advancedlabel_Properties.html"/>
+	</topic>
+</toc>

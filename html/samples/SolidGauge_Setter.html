@@ -1,0 +1,315 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<style type="text/css">
+table.hovertable {
+	font-family: verdana,arial,sans-serif;
+	font-size:11px;
+	color:#333333;
+	border-width: 1px;
+	border-color: #999999;
+	border-collapse: collapse;
+}
+table.hovertable th {
+	background-color:#c3dde0;
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #a9c6c9;
+}
+table.hovertable tr {
+	background-color:#d4e3e5;
+}
+table.hovertable td {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #a9c6c9;
+}
+</style>
+</head>
+<body>
+<h1>SolidGauge</h1>
+<br>
+<h2>Setter Functions</h2>
+<table class="hovertable">
+<th>
+<tr>
+<td><B>Function Name</B></td><td></td><td><B>Description</B></td><td></td><td><B>Example</B></td><td></td><td><B>Parameters</B></td>
+</tr>
+</th>
+<tr>
+<td>DSXSetMinimumValue('500');</td><td></td><td>Sets the Minimum Value</td><td></td><td>In the following example the value of Minimum Value is modified with the
+					  parameter of type <property>String</property>  having value '500'.<br>SOLIDGAUGE_1.DSXSetMinimumValue('500');<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>'500'</td><td>String</td><td>Minimum Value</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetMaximumValue('1000');</td><td></td><td>Sets the Maximum Value</td><td></td><td>In the following example the value of Maximum Value is modified with the
+					  parameter of type <property>String</property>  having value '1000'.<br>SOLIDGAUGE_1.DSXSetMaximumValue('1000');<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>'1000'</td><td>String</td><td>Maximum Value</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetDataValue(DS_1.getDataAsString('ZR9ORDQTY0000000000000009',{}));</td><td></td><td>Sets the Data Value</td><td></td><td>In the following example the value of Data Value is modified with the
+					  parameter of type <property>String</property>  having value DS_1.getDataAsString('ZR9ORDQTY0000000000000009',{}).<br>SOLIDGAUGE_1.DSXSetDataValue(DS_1.getDataAsString('ZR9ORDQTY0000000000000009',{}));<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>DS_1.getDataAsString('ZR9ORDQTY0000000000000009',{})</td><td>String</td><td>Data Value</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetTitleEnable(true);</td><td></td><td>Sets the Title Enable</td><td></td><td>In the following example the value of Title Enable is modified with the
+					  parameter of type <property>boolean</property>  having value true.<br>SOLIDGAUGE_1.DSXSetTitleEnable(true);<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>true</td><td>boolean</td><td>Title Enable</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetTitleText('Sales');</td><td></td><td>Sets the Title Text</td><td></td><td>In the following example the value of Title Text is modified with the
+					  parameter of type <property>String</property>  having value 'Sales'.<br>SOLIDGAUGE_1.DSXSetTitleText('Sales');<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>'Sales'</td><td>String</td><td>Title Text</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetSubTitleEnable(true);</td><td></td><td>Sets the Sub Title Enable</td><td></td><td>In the following example the value of Sub Title Enable is modified with the
+					  parameter of type <property>boolean</property>  having value true.<br>SOLIDGAUGE_1.DSXSetSubTitleEnable(true);<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>true</td><td>boolean</td><td>Sub Title Enable</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetSubTitleText('USD');</td><td></td><td>Sets the SubTitleText</td><td></td><td>In the following example the value of SubTitleText is modified with the
+					  parameter of type <property>String</property>  having value 'USD'.<br>SOLIDGAUGE_1.DSXSetSubTitleText('USD');<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>'USD'</td><td>String</td><td>SubTitleText</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetTooltipValuePrefix('$');</td><td></td><td>Sets the Tooltip Value Prefix</td><td></td><td>In the following example the value of Tooltip Value Prefix is modified with the
+					  parameter of type <property>String</property>  having value '$'.<br>SOLIDGAUGE_1.DSXSetTooltipValuePrefix('$');<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>'$'</td><td>String</td><td>Tooltip Value Prefix</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetTooltipValueSuffix('K');</td><td></td><td>Sets the Tooltip Value Suffix</td><td></td><td>In the following example the value of Tooltip Value Suffix is modified with the
+					  parameter of type <property>String</property>  having value 'K'.<br>SOLIDGAUGE_1.DSXSetTooltipValueSuffix('K');<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>'K'</td><td>String</td><td>Tooltip Value Suffix</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetExportedFileName('VisualBI');</td><td></td><td>Sets the Exported File Name</td><td></td><td>In the following example the value of Exported File Name is modified with the
+					  parameter of type <property>String</property>  having value 'VisualBI'.<br>SOLIDGAUGE_1.DSXSetExportedFileName('VisualBI');<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>'VisualBI'</td><td>String</td><td>Exported File Name</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetDataLabelEnabled(true);</td><td></td><td>Sets the Data Label Enabled</td><td></td><td>In the following example the value of Data Label Enabled is modified with the
+					  parameter of type <property>boolean</property>  having value true.<br>SOLIDGAUGE_1.DSXSetDataLabelEnabled(true);<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>true</td><td>boolean</td><td>Data Label Enabled</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetDataLabelPrefix('$');</td><td></td><td>Sets the Data Label Prefix</td><td></td><td>In the following example the value of Data Label Prefix is modified with the
+					  parameter of type <property>String</property>  having value '$'.<br>SOLIDGAUGE_1.DSXSetDataLabelPrefix('$');<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>'$'</td><td>String</td><td>Data Label Prefix</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetDataLabelSuffix('K');</td><td></td><td>Sets the Data Label Suffix</td><td></td><td>In the following example the value of Data Label Suffix is modified with the
+					  parameter of type <property>String</property>  having value 'K'.<br>SOLIDGAUGE_1.DSXSetDataLabelSuffix('K');<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>'K'</td><td>String</td><td>Data Label Suffix</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetValueAxisMajorTickInterval(86);</td><td></td><td>Sets the Value Axis Major Tick Interval</td><td></td><td>In the following example the value of Value Axis Major Tick Interval is modified with the
+					  parameter of type <property>int</property>  having value 86.<br>SOLIDGAUGE_1.DSXSetValueAxisMajorTickInterval(86);<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>86</td><td>int</td><td>Value Axis Major Tick Interval</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetValueAxisTitleText('Sales');</td><td></td><td>Sets the Value Axis Title Text</td><td></td><td>In the following example the value of Value Axis Title Text is modified with the
+					  parameter of type <property>String</property>  having value 'Sales'.<br>SOLIDGAUGE_1.DSXSetValueAxisTitleText('Sales');<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>'Sales'</td><td>String</td><td>Value Axis Title Text</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetValueAxisMinorTickInterval(86);</td><td></td><td>Sets the Value Axis Minor Tick Interval</td><td></td><td>In the following example the value of Value Axis Minor Tick Interval is modified with the
+					  parameter of type <property>int</property>  having value 86.<br>SOLIDGAUGE_1.DSXSetValueAxisMinorTickInterval(86);<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>86</td><td>int</td><td>Value Axis Minor Tick Interval</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>

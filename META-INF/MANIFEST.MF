@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Doc
+Bundle-SymbolicName: com.vbi.suite.doc;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: VisualBI
+Bundle-RequiredExecutionEnvironment: JRE-1.1

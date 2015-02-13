@@ -1,0 +1,67 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+	<title>Features of DSX CHARTS</title>
+</head>
+
+<body> 
+<h2>Title and Subtitle</h2><p>
+The title is by default displayed at the top of the chart, and an optional subtitle can be shown beneath it. The title and subtitle can also be moved around by the default attributes of the title and subtitle options on the "Title" tab of the Additional Property Sheet.
+</p><h2>Axes</h2><p>
+The x-axis and y-axis are shown by default in all charts but pie chart, donut chart, Funnel/Pyramid and counters. The axis labels, tickmarks and gridlines are closely linked and all scale together. Their positioning is calculated to best fit the data present in a chart.
+</p><h2>Axis Labels:</h2><p>
+The axis labels can be found along the axis showing the value of the data it corresponds to. Labels can also contain a prefix or suffix symbol entered during design time. DSX Charts also have an option to stagger the axis labels in order to improve readability.
+</p><h2>Ticks</h2><p>
+Tick marks are the lines placed along an axis to show the units of measurement. The spacing between ticks is mainly decided by the property "Tick Interval". Ticks could be major ticks or minor ticks. While the major ticks are available on both the axes, minor ticks are available only on the value axis (Y-axis). The minor ticks are laid out between the major ticks. 
+</p><h2>Gridlines</h2><p>
+Grid lines are collections of horizontal (and/or vertical) lines that divide a chart into a grid, making it easier to read values of the chart. Grid lines for the y-axis are enabled by default, and disabled by default for the x-axis. Minor grid lines are intermediary lines that can be enabled by setting the Grid Line color. The application designer has an option to select the style of the gridline.
+</p><h2>Tooltip</h2><p>
+The tooltip appears when hovering over a point in a series. By default the tooltip shows the values of the point and the name of the series. At design time, the application developer also has an option to enable a crosshair which displays a line connecting the points with their corresponding axis.
+</p><h2>Legend</h2><p>
+The legend displays the series in a chart with a predefined symbol and the name of the series. Series can be disabled and enabled from the legend. 
+</p><h2>Plot bands and Plot lines</h2><p>
+Plot lines and plot bands are quite similar in use. They both have the option of color, label and Plot value/range. The lines and bands will always be perpendicular to the axis it is defined within. When a plot band/line is used on the x- and y-axis, the plot band/line on the y-axis will be shown in front, as seen in the example below. The plot bands and plot lines have the option of containing a label. This is a text which will be shown on top of the band or line. A mouse-over event is also available for the x- and y-axis plot bands.
+ 
+</p><h2>Panning and Zooming</h2><p>
+Zooming in Highcharts can be enabled on the X axes or Y axes separately. With a mouse pointer, the zooming is performed by dragging out a rectangle in the chart. Unlike pinch zooming, the user can't pan the zoomed area, but has to zoom out then in again on a new area.
+On touch devices, the user can zoom by pinching in the chart area. On these devices, the user may also move the zoomed area by panning with one finger across the chart. 
+</p><h2>3D Charts</h2><p>
+3D support is available in all the pie variants of the DSX charts. For all these charts, the following options are the most important:
+</p><h2>Enabled:</h2><p> This indicates whether the chart has to have 3D or not, set this to true.
+</p><h2>Depth:</h2><p> The total depth of the chart, defaults to 100.
+</p><h2>Alpha & Beta:</h2><p> The angles to rotate the view of the chart.
+</p><h2>Stacking Charts</h2><p>
+Column and area type series can be set to stack on top of each other instead of overlapping. There are two available options, "normal" stacking and "percentage" stacking. Normal stacking stacks the data series on top of each other in order. Percent stacking fills the plot area and draws each point of data with a relative percentage to all the points in the same category.
+</p><h2>Export Module</h2><p>
+The exporting module allows users to download the chart as pdf, png, jpeg or a svg vector image. It also allows printing the chart directly without distracting elements from the web page. When enabled, a context button with a menu appears in the top right corner of the chart.
+
+ 
+Note: Since the export options use server side scripting, internet connection is required to download an image or a document.
+</p><h1>Design and Style</h1><p>
+</p><h2>Layout and Positioning</h2><p>
+Most DSX Chart elements displayed on a chart such as the chart element, axis labels, data labels, legends, titles and export button can be positioned using x and y values relative to the top left corner and using the "Align" and "Vertical Align" options. The "Align" option can have the values 'left', 'right' and 'center'. The "Vertical Align" align option can have the values 'top', 'bottom' and 'middle'.
+</p><h2>Plot Area, Margin and Padding</h2><p>
+The plot area is the square area within the axes, where the series are drawn. There are two sets of options that decide where the plot area is placed within the chart. The margin options (Left Margin, Top Margin etc) give the margin to the actual plot area and does not apply to other elements on the chart (labels, legend etc). The padding options (Left Padding, Top Padding etc) decide the padding between the outer area and all elements inside a chart. In this mode, the chart is adjusted to make room for title and legend, axis labels etc. By default, the margins are null. Margins are only used in situations where you want to make sure plot areas are align between multiple charts. Margins override their counterpart padding options.
+ 
+</p><h2>Borders</h2><p>
+Border options are available for the chart element, data labels and legends. Borders enabled by giving a pixel value to the property "border width" and color value to the property "border color". Default values are 1 and null respectively. It can be further styled by other options like "border radius" which enables curved edges. These borders will also be part of the exported chart. If you want a border that is not visible in the export, using a CSS border on the container div may be a good alternative.
+</p><h2>Backgrounds</h2><p>
+The chart area accepts a background color through the "Background color" property. Background images may also be applied to the HTML container, but won't be visible until the background color is set to null.
+</p><h2>Fonts</h2><p>
+All layout elements of the chart that include text have a style option that allows setting text related properties such as "Font Color, "Font Style", Font Size" and "Font Family". There are options for elements like x-axis labels, titles and legends to mention a few. There is an option to set the font properties on a global level too.
+
+</p><h2>Animation</h2><p>
+The chart animation option applies to animation when anything is changed dynamically in the chart. This change can be that a series is hidden and the plot area needs to animate to update to new axis scales, the chart is altered dynamically, or any other redraw operation. The default duration of the animation is 500 ms.
+
+</p><h2>Events</h2><p>
+Following are the scripting events that are supported by most of the DSX charts 
+</p><h3>On Plot Background Click</h3><p>
+</p><h3>After Chart Load</h3><p>
+</p><h3>On Zoom</h3><p>
+</p><h3>On Select</h3><p>
+Charts such as line and area, which support plot bands, support two additional events
+</p><h3>On x-axis Plot Band Mouseover</h3><p>
+</p><h3>On y-axis Plot Band Mouseover</h3><p> 
+</html>

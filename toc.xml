@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?NLS TYPE="org.eclipse.help.toc"?>
+
+<toc label="Developer Guide for DSX Components" topic="html/toc.html">
+   <topic label="Getting Started"> 
+      <link toc="tocgettingstarted.xml"/>
+   </topic>
+   <topic label="Features">
+      <topic href="html/concepts/features.html" label="Features of DSX CHARTS">
+      </topic>
+   </topic>
+   <topic label="Properties">
+      <link toc="tocproperties.xml"/>
+   </topic>
+   <topic label="Scripting Samples">
+      <link toc="tocsamples.xml"/>
+   </topic>
+</toc>

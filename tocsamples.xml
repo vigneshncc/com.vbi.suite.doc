@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?NLS TYPE="org.eclipse.help.toc"?>
+
+<toc label="Samples" link_to="toc.xml#samples"> 
+	<topic label="GridBox">
+		<topic label="Getter Samples" href="html/samples/GridBox_Getter.html"/>
+		<topic label="Setter Samples" href="html/samples/GridBox_Setter.html"/>
+	</topic>
+	<topic label="ScriptBox">
+		<topic label="Getter Samples" href="html/samples/ScriptBox_Getter.html"/>
+		<topic label="Setter Samples" href="html/samples/ScriptBox_Setter.html"/>
+	</topic>
+	<topic label="Menu">
+		<topic label="Getter Samples" href="html/samples/Menu_Getter.html"/>
+		<topic label="Setter Samples" href="html/samples/Menu_Setter.html"/>
+	</topic>
+	<topic label="LocationAnalyzer">
+		<topic label="Getter Samples" href="html/samples/LocationAnalyzer_Getter.html"/>
+		<topic label="Setter Samples" href="html/samples/LocationAnalyzer_Setter.html"/>
+	</topic>
+	<topic label="PeriodSelectorYM">
+		<topic label="Getter Samples" href="html/samples/PeriodSelectorYM_Getter.html"/>
+		<topic label="Setter Samples" href="html/samples/PeriodSelectorYM_Setter.html"/>
+	</topic>
+	<topic label="PeriodSelectorYQM">
+		<topic label="Getter Samples" href="html/samples/PeriodSelectorYQM_Getter.html"/>
+		<topic label="Setter Samples" href="html/samples/PeriodSelectorYQM_Setter.html"/>
+	</topic>
+	<topic label="PeriodSelectorYQMM">
+		<topic label="Getter Samples" href="html/samples/PeriodSelectorYQMM_Getter.html"/>
+		<topic label="Setter Samples" href="html/samples/PeriodSelectorYQMM_Setter.html"/>
+	</topic>
+	<topic label="LineChart">
+		<topic label="Getter Samples" href="html/samples/LineChart_Getter.html"/>
+		<topic label="Setter Samples" href="html/samples/LineChart_Setter.html"/>
+	</topic>
+	<topic label="ProgressBar">
+		<topic label="Getter Samples" href="html/samples/ProgressBar_Getter.html"/>
+		<topic label="Setter Samples" href="html/samples/ProgressBar_Setter.html"/>
+	</topic>
+	<topic label="StackedColumnBarChart">
+		<topic label="Getter Samples" href="html/samples/StackedColumnBarChart_Getter.html"/>
+		<topic label="Setter Samples" href="html/samples/StackedColumnBarChart_Setter.html"/>
+	</topic>
+	<topic label="ColumnBarChart">
+		<topic label="Getter Samples" href="html/samples/ColumnBarChart_Getter.html"/>
+		<topic label="Setter Samples" href="html/samples/ColumnBarChart_Setter.html"/>
+	</topic>
+	<topic label="PieChart">
+		<topic label="Getter Samples" href="html/samples/PieChart_Getter.html"/>
+		<topic label="Setter Samples" href="html/samples/PieChart_Setter.html"/>
+	</topic>
+	<topic label="GroupedandStackedColumnBarChart">
+		<topic label="Getter Samples" href="html/samples/GroupStackedColumnBarChart_Getter.html"/>
+		<topic label="Setter Samples" href="html/samples/GroupStackedColumnBarChart_Setter.html"/>
+	</topic> 
+	<topic label="HCMap">
+		<topic label="Getter Samples" href="html/samples/HCMap_Getter.html"/>
+		<topic label="Setter Samples" href="html/samples/HCMap_Setter.html"/>
+	</topic>
+	<topic label="NumberCounter">
+		<topic label="Getter Samples" href="html/samples/NumberCounter_Getter.html"/>
+		<topic label="Setter Samples" href="html/samples/NumberCounter_Setter.html"/>
+	</topic>
+	<topic label="CircularCounter">
+		<topic label="Getter Samples" href="html/samples/CircularCounter_Getter.html"/>
+		<topic label="Setter Samples" href="html/samples/CircularCounter_Setter.html"/>
+	</topic>
+	<topic label="FunnelPyramidChart">
+		<topic label="Getter Samples" href="html/samples/FunnelPyramidChart_Getter.html"/>
+		<topic label="Setter Samples" href="html/samples/FunnelPyramidChart_Setter.html"/>
+	</topic>
+	<topic label="DonutChart">
+		<topic label="Getter Samples" href="html/samples/DonutChart_Getter.html"/>
+		<topic label="Setter Samples" href="html/samples/DonutChart_Setter.html"/>
+	</topic>
+	<topic label="SemicircledonutChart">
+		<topic label="Getter Samples" href="html/samples/SemicircledonutChart_Getter.html"/>
+		<topic label="Setter Samples" href="html/samples/SemicircledonutChart_Setter.html"/>
+	</topic>
+	<topic label="CombinationChart">
+		<topic label="Getter Samples" href="html/samples/CombinationChart_Getter.html"/>
+		<topic label="Setter Samples" href="html/samples/CombinationChart_Setter.html"/>
+	</topic>
+	<topic label="AngularGauge">
+		<topic label="Getter Samples" href="html/samples/AngularGauge_Getter.html"/>
+		<topic label="Setter Samples" href="html/samples/AngularGauge_Setter.html"/>
+	</topic>
+	<topic label="FunnelPyramidDrilldownChart">
+		<topic label="Getter Samples" href="html/samples/FunnelPyramidDrilldownChart_Getter.html"/>
+		<topic label="Setter Samples" href="html/samples/FunnelPyramidDrilldownChart_Setter.html"/>
+	</topic>
+	<topic label="SolidGauge">
+		<topic label="Getter Samples" href="html/samples/SolidGauge_Getter.html"/>
+		<topic label="Setter Samples" href="html/samples/SolidGauge_Setter.html"/>
+	</topic>
+	<topic label="CustomLabel">
+		<topic label="Getter Samples" href="html/samples/advancedlabel_Getter.html"/>
+		<topic label="Setter Samples" href="html/samples/advancedlabel_Setter.html"/>
+	</topic>
+</toc>
