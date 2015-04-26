@@ -1,0 +1,34 @@
+<html>
+<script src="jquery-1.7.1.js"></script><script src="../../../res/library/visualbi/propertyBank.js"></script><script>
+	function generateUIDocs(){
+		var propertyBank = PropertyBank();
+		var categoryBank = CategoryBank();
+		var sectionBank = SectionBank();
+		//iterate over all the add-prop tables 
+		$(".adv-properties-table").each(function(index, elem){
+			var comp_name = $(elem).prev().html();
+			$(elem).find("td").each(function(index, td_elem){
+				var prop_name = $(td_elem).html(); 
+				
+				var prop = propertyBank[prop_name];
+				
+				if(prop !== undefined){ 
+					$(td_elem).parent().append("<td>" + sectionBank[prop.section].title + "</td>");	 
+					$(td_elem).parent().append("<td>" + categoryBank[prop.category].title + "</td>");	
+					$(td_elem).parent().append("<td>" + prop.title + "</td>");	
+					$(td_elem).parent().append("<td>" + prop.description + "</td>");
+				}
+				else{
+					console.log(comp_name + ": Property not found in bank for '" + prop_name + "'");	
+				}
+				
+			});
+		}) 
+	}
+</script>
+<body onload="generateUIDocs()">
+<h2>Advanced Properties:</h2>
+<p style="display:none;" class="component-name">HierarchialFilter</p>
+<table class="adv-properties-table" style="width:100%"></table>
+</body>
+</html>
