@@ -79,4 +79,64 @@
 	<topic label="CustomLabel">
 		<topic label="Features" href="html/concepts/advancedlabel_About.html"/>
 	</topic>
+	<topic label="BulletChart">
+	<topic label="Features" href="html/concepts/BulletChart_About.html"/>
+	</topic>
+	<topic label="ColumnBarDrilldownChart">
+		<topic label="Features" href="html/concepts/ColumnBarDrilldownChart_About.html"/>
+	</topic>
+	<topic label="ColumnlinepieChart">
+		<topic label="Features" href="html/concepts/ColumnlinepieChart_About.html"/>
+	</topic>
+	<topic label="CustomDataSource">
+		<topic label="Features" href="html/concepts/CustomDataSource_About.html"/>
+	</topic>
+	<topic label="DualAxisChart">
+		<topic label="Features" href="html/concepts/DualAxisChart_About.html"/>
+	</topic>
+	<topic label="FixedColumnChart">
+		<topic label="Features" href="html/concepts/FixedColumnChart_About.html"/>
+	</topic>
+	<topic label="HeatMapChart">
+		<topic label="Features" href="html/concepts/HeatMapChart_About.html"/>
+	</topic>
+	<topic label="HierarchialFilter">
+		<topic label="Features" href="html/concepts/HierarchialFilter_About.html"/>
+	</topic>
+	<topic label="HTMLBox">
+		<topic label="Features" href="html/concepts/HTMLBox_About.html"/>
+	</topic>
+	<topic label="KPITile">
+		<topic label="Features" href="html/concepts/KPITile_About.html"/>
+	</topic>
+	<topic label="MultipleAxesChart">
+		<topic label="Features" href="html/concepts/MultipleAxesChart_About.html"/>
+	</topic>
+	<topic label="SparkLineTableChart">
+		<topic label="Features" href="html/concepts/SparkLineTableChart_About.html"/>
+	</topic>
+	<topic label="SuperCombinationChart">
+		<topic label="Features" href="html/concepts/SuperCombinationChart_About.html"/>
+	</topic>
+	<topic label="PieDrilldownChart">
+		<topic label="Features" href="html/concepts/PieDrilldownChart_About.html"/>
+	</topic>
+	<topic label="ScatterChart">
+		<topic label="Features" href="html/concepts/ScatterChart_About.html"/>
+	</topic>
+	<topic label="SparkLineChart">
+		<topic label="Features" href="html/concepts/SparkLineChart_About.html"/>
+	</topic>
+	<topic label="Table">
+		<topic label="Features" href="html/concepts/Table_About.html"/>
+	</topic>
+	<topic label="VbiPdfExport">
+		<topic label="Features" href="html/concepts/VbiPdfExport_About.html"/>
+	</topic>
+	<topic label="WaterfallChart">
+		<topic label="Features" href="html/concepts/WaterfallChart_About.html"/>
+	</topic>
+	<topic label="WhatIfAnalyzer">
+		<topic label="Features" href="html/concepts/WhatIfAnalyzer_About.html"/>
+	</topic>
 </toc>
