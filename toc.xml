@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?NLS TYPE="org.eclipse.help.toc"?>
 
-<toc label="Developer Guide for DSX Components" topic="html/toc.html">
+<toc label="Developer Guide for VBX Components" topic="html/toc.html">
    <topic label="Getting Started"> 
       <link toc="tocgettingstarted.xml"/>
    </topic>

@@ -2,7 +2,7 @@
 <?NLS TYPE="org.eclipse.help.toc"?>
 
 <toc label="Getting Started" link_to="toc.xml#gettingstarted"> 
-	<topic label="Overview of DSX Suite"  href="html/gettingstarted/overview.html"> 
+	<topic label="Overview of VBX Suite"  href="html/gettingstarted/overview.html"> 
 	</topic>
 	<topic label="Components Overview">
 		<topic label="Product Links" href="html/gettingstarted/links.html" />
