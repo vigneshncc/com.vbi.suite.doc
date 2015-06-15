@@ -6,137 +6,96 @@
 	</topic>
 	<topic label="Components Overview">
 		<topic label="Product Links" href="html/gettingstarted/links.html" />
-	</topic> 
-	<topic label="GridBox">
-		<topic label="Features" href="html/concepts/GridBox_About.html"/>
-	</topic>
-	<topic label="ScriptBox">
-		<topic label="Features" href="html/concepts/ScriptBox_About.html"/>
-	</topic>
-	<topic label="Menu">
-		<topic label="Features" href="html/concepts/Menu_About.html"/>
-	</topic>
-	<topic label="LocationAnalyzer">
-		<topic label="Features" href="html/concepts/LocationAnalyzer_About.html"/>
-	</topic>
-	<topic label="PeriodSelectorYM">
-		<topic label="Features" href="html/concepts/PeriodSelectorYM_About.html"/>
-	</topic>
-	<topic label="PeriodSelectorYQM">
-		<topic label="Features" href="html/concepts/PeriodSelectorYQM_About.html"/>
-	</topic>
-	<topic label="PeriodSelectorYQMM">
-		<topic label="Features" href="html/concepts/PeriodSelectorYQMM_About.html"/>
-	</topic>
-	<topic label="LineChart">
-		<topic label="Features" href="html/concepts/LineChart_About.html"/>
-	</topic>
-	<topic label="ProgressBar">
-		<topic label="Features" href="html/concepts/ProgressBar_About.html"/>
-	</topic>
-	<topic label="StackedColumnBarChart">
-		<topic label="Features" href="html/concepts/StackedColumnBarChart_About.html"/>
-	</topic>
-	<topic label="ColumnBarChart">
-		<topic label="Features" href="html/concepts/ColumnBarChart_About.html"/>
-	</topic>
-	<topic label="PieChart">
-		<topic label="Features" href="html/concepts/PieChart_About.html"/>
-	</topic>
-	<topic label="GroupedandStackedColumnBarChart">
-		<topic label="Features" href="html/concepts/GroupStackedColumnBarChart_About.html"/>
-	</topic> 
-	<topic label="HCMap">
-		<topic label="Features" href="html/concepts/HCMap_About.html"/>
-	</topic>
-	<topic label="NumberCounter">
-		<topic label="Features" href="html/concepts/NumberCounter_About.html"/>
-	</topic>
-	<topic label="CircularCounter">
-		<topic label="Features" href="html/concepts/CircularCounter_About.html"/>
-	</topic>
-	<topic label="FunnelPyramidChart">
-		<topic label="Features" href="html/concepts/FunnelPyramidChart_About.html"/>
-	</topic>
-	<topic label="DonutChart">
-		<topic label="Features" href="html/concepts/DonutChart_About.html"/>
-	</topic>
-	<topic label="SemicircledonutChart">
-		<topic label="Features" href="html/concepts/SemicircledonutChart_About.html"/>
-	</topic>
-	<topic label="CombinationChart">
-		<topic label="Features" href="html/concepts/CombinationChart_About.html"/>
-	</topic>
-	<topic label="AngularGauge">
-		<topic label="Features" href="html/concepts/AngularGauge_About.html"/>
-	</topic>
-	<topic label="FunnelPyramidDrilldownChart">
-		<topic label="Features" href="html/concepts/FunnelPyramidDrilldownChart_About.html"/>
-	</topic>
-	<topic label="SolidGauge">
-		<topic label="Features" href="html/concepts/SolidGauge_About.html"/>
-	</topic>
-	<topic label="CustomLabel">
-		<topic label="Features" href="html/concepts/advancedlabel_About.html"/>
-	</topic>
-	<topic label="BulletChart">
-	<topic label="Features" href="html/concepts/BulletChart_About.html"/>
-	</topic>
-	<topic label="ColumnBarDrilldownChart">
-		<topic label="Features" href="html/concepts/ColumnBarDrilldownChart_About.html"/>
-	</topic>
-	<topic label="ColumnlinepieChart">
-		<topic label="Features" href="html/concepts/ColumnlinepieChart_About.html"/>
-	</topic>
-	<topic label="CustomDataSource">
-		<topic label="Features" href="html/concepts/CustomDataSource_About.html"/>
-	</topic>
-	<topic label="DualAxisChart">
-		<topic label="Features" href="html/concepts/DualAxisChart_About.html"/>
-	</topic>
-	<topic label="FixedColumnChart">
-		<topic label="Features" href="html/concepts/FixedColumnChart_About.html"/>
-	</topic>
-	<topic label="HeatMapChart">
-		<topic label="Features" href="html/concepts/HeatMapChart_About.html"/>
-	</topic>
-	<topic label="HierarchialFilter">
-		<topic label="Features" href="html/concepts/HierarchialFilter_About.html"/>
-	</topic>
-	<topic label="HTMLBox">
-		<topic label="Features" href="html/concepts/HTMLBox_About.html"/>
-	</topic>
-	<topic label="KPITile">
-		<topic label="Features" href="html/concepts/KPITile_About.html"/>
-	</topic>
-	<topic label="MultipleAxesChart">
-		<topic label="Features" href="html/concepts/MultipleAxesChart_About.html"/>
-	</topic>
-	<topic label="SparkLineTableChart">
-		<topic label="Features" href="html/concepts/SparkLineTableChart_About.html"/>
-	</topic>
-	<topic label="SuperCombinationChart">
-		<topic label="Features" href="html/concepts/SuperCombinationChart_About.html"/>
-	</topic>
-	<topic label="PieDrilldownChart">
-		<topic label="Features" href="html/concepts/PieDrilldownChart_About.html"/>
-	</topic>
-	<topic label="ScatterChart">
-		<topic label="Features" href="html/concepts/ScatterChart_About.html"/>
-	</topic>
-	<topic label="SparkLineChart">
-		<topic label="Features" href="html/concepts/SparkLineChart_About.html"/>
-	</topic>
-	<topic label="Table">
-		<topic label="Features" href="html/concepts/Table_About.html"/>
-	</topic>
-	<topic label="VbiPdfExport">
-		<topic label="Features" href="html/concepts/VbiPdfExport_About.html"/>
-	</topic>
-	<topic label="WaterfallChart">
-		<topic label="Features" href="html/concepts/WaterfallChart_About.html"/>
-	</topic>
-	<topic label="WhatIfAnalyzer">
-		<topic label="Features" href="html/concepts/WhatIfAnalyzer_About.html"/>
-	</topic>
-</toc>
+	</topic> <topic label="HierarchialFilter">
+<topic label="Features" href="html/concepts/HierarchialFilter_About.html"/>
+</topic><topic label="CustomDataSource">
+<topic label="Features" href="html/concepts/CustomDataSource_About.html"/>
+</topic><topic label="FixedColumnChart">
+<topic label="Features" href="html/concepts/FixedColumnChart_About.html"/>
+</topic><topic label="DualAxesChart">
+<topic label="Features" href="html/concepts/DualAxesChart_About.html"/>
+</topic><topic label="MultipleAxesChart">
+<topic label="Features" href="html/concepts/MultipleAxesChart_About.html"/>
+</topic><topic label="Table">
+<topic label="Features" href="html/concepts/Table_About.html"/>
+</topic><topic label="KPITile">
+<topic label="Features" href="html/concepts/KPITile_About.html"/>
+</topic><topic label="GridBox">
+<topic label="Features" href="html/concepts/GridBox_About.html"/>
+</topic><topic label="HTMLBox">
+<topic label="Features" href="html/concepts/HTMLBox_About.html"/>
+</topic><topic label="ScriptBox">
+<topic label="Features" href="html/concepts/ScriptBox_About.html"/>
+</topic><topic label="Menu">
+<topic label="Features" href="html/concepts/Menu_About.html"/>
+</topic><topic label="DailyAnalyzer">
+<topic label="Features" href="html/concepts/DailyAnalyzer_About.html"/>
+</topic><topic label="LocationAnalyzer">
+<topic label="Features" href="html/concepts/LocationAnalyzer_About.html"/>
+</topic><topic label="PeriodSelectorYM">
+<topic label="Features" href="html/concepts/PeriodSelectorYM_About.html"/>
+</topic><topic label="PeriodSelectorYQM">
+<topic label="Features" href="html/concepts/PeriodSelectorYQM_About.html"/>
+</topic><topic label="PeriodSelectorYQMM">
+<topic label="Features" href="html/concepts/PeriodSelectorYQMM_About.html"/>
+</topic><topic label="Searchbox">
+<topic label="Features" href="html/concepts/Searchbox_About.html"/>
+</topic><topic label="LineChart">
+<topic label="Features" href="html/concepts/LineChart_About.html"/>
+</topic><topic label="ProgressBar">
+<topic label="Features" href="html/concepts/ProgressBar_About.html"/>
+</topic><topic label="StackedColumnBarChart">
+<topic label="Features" href="html/concepts/StackedColumnBarChart_About.html"/>
+</topic><topic label="ColumnBarChart">
+<topic label="Features" href="html/concepts/ColumnBarChart_About.html"/>
+</topic><topic label="ColumnBarDrilldownChart">
+<topic label="Features" href="html/concepts/ColumnBarDrilldownChart_About.html"/>
+</topic><topic label="PieChart">
+<topic label="Features" href="html/concepts/PieChart_About.html"/>
+</topic><topic label="GroupStackedColumnBarChart">
+<topic label="Features" href="html/concepts/GroupStackedColumnBarChart_About.html"/>
+</topic><topic label="BulletChart">
+<topic label="Features" href="html/concepts/BulletChart_About.html"/>
+</topic><topic label="StackedAreaChart">
+<topic label="Features" href="html/concepts/StackedAreaChart_About.html"/>
+</topic><topic label="HCMap">
+<topic label="Features" href="html/concepts/HCMap_About.html"/>
+</topic><topic label="NumberCounter">
+<topic label="Features" href="html/concepts/NumberCounter_About.html"/>
+</topic><topic label="CircularCounter">
+<topic label="Features" href="html/concepts/CircularCounter_About.html"/>
+</topic><topic label="FunnelPyramidChart">
+<topic label="Features" href="html/concepts/FunnelPyramidChart_About.html"/>
+</topic><topic label="DonutChart">
+<topic label="Features" href="html/concepts/DonutChart_About.html"/>
+</topic><topic label="SemicircledonutChart">
+<topic label="Features" href="html/concepts/SemicircledonutChart_About.html"/>
+</topic><topic label="CombinationChart">
+<topic label="Features" href="html/concepts/CombinationChart_About.html"/>
+</topic><topic label="BubbleChart">
+<topic label="Features" href="html/concepts/BubbleChart_About.html"/>
+</topic><topic label="ScatterChart">
+<topic label="Features" href="html/concepts/ScatterChart_About.html"/>
+</topic><topic label="SuperCombinationChart">
+<topic label="Features" href="html/concepts/SuperCombinationChart_About.html"/>
+</topic><topic label="AngularGauge">
+<topic label="Features" href="html/concepts/AngularGauge_About.html"/>
+</topic><topic label="FunnelPyramidDrilldownChart">
+<topic label="Features" href="html/concepts/FunnelPyramidDrilldownChart_About.html"/>
+</topic><topic label="SolidGauge">
+<topic label="Features" href="html/concepts/SolidGauge_About.html"/>
+</topic><topic label="advancedlabel">
+<topic label="Features" href="html/concepts/advancedlabel_About.html"/>
+</topic><topic label="SparkLineChart">
+<topic label="Features" href="html/concepts/SparkLineChart_About.html"/>
+</topic><topic label="PieDrilldownChart">
+<topic label="Features" href="html/concepts/PieDrilldownChart_About.html"/>
+</topic><topic label="WaterfallChart">
+<topic label="Features" href="html/concepts/WaterfallChart_About.html"/>
+</topic><topic label="WhatIfAnalyzer">
+<topic label="Features" href="html/concepts/WhatIfAnalyzer_About.html"/>
+</topic><topic label="HeatMapChart">
+<topic label="Features" href="html/concepts/HeatMapChart_About.html"/>
+</topic><topic label="VbiPdfExport">
+<topic label="Features" href="html/concepts/VbiPdfExport_About.html"/>
+</topic></toc>
