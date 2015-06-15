@@ -1,0 +1,638 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<style type="text/css">
+table.hovertable {
+	font-family: verdana,arial,sans-serif;
+	font-size:11px;
+	color:#333333;
+	border-width: 1px;
+	border-color: #999999;
+	border-collapse: collapse;
+}
+table.hovertable th {
+	background-color:#c3dde0;
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #a9c6c9;
+}
+table.hovertable tr {
+	background-color:#d4e3e5;
+}
+table.hovertable td {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #a9c6c9;
+}
+</style>
+</head>
+<body>
+<h1>StackedAreaChart</h1>
+<br>
+<h2>Setter Functions</h2>
+<table class="hovertable">
+<th>
+<tr>
+<td><B>Function Name</B></td><td></td><td><B>Description</B></td><td></td><td><B>Example</B></td><td></td><td><B>Parameters</B></td>
+</tr>
+</th>
+<tr>
+<td>DSXSetChartType('percentxxareasplinehorizontal');</td><td></td><td>Sets the Chart Type</td><td></td><td>In the following example the value of Chart Type is modified with the
+					  parameter of type <property>String</property>  having value 'percentxxareasplinehorizontal'.<br>STACKEDAREACHART_1.DSXSetChartType('percentxxareasplinehorizontal');<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>'percentxxareasplinehorizontal'</td><td>String</td><td>Chart Type</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetTitleEnable(true);</td><td></td><td>Sets the Title Enable</td><td></td><td>In the following example the value of Title Enable is modified with the
+					  parameter of type <property>boolean</property>  having value true.<br>STACKEDAREACHART_1.DSXSetTitleEnable(true);<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>true</td><td>boolean</td><td>Title Enable</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetTitleText('Sales');</td><td></td><td>Sets the Title Text</td><td></td><td>In the following example the value of Title Text is modified with the
+					  parameter of type <property>String</property>  having value 'Sales'.<br>STACKEDAREACHART_1.DSXSetTitleText('Sales');<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>'Sales'</td><td>String</td><td>Title Text</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetSubTitleEnable(true);</td><td></td><td>Sets the Sub Title Enable</td><td></td><td>In the following example the value of Sub Title Enable is modified with the
+					  parameter of type <property>boolean</property>  having value true.<br>STACKEDAREACHART_1.DSXSetSubTitleEnable(true);<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>true</td><td>boolean</td><td>Sub Title Enable</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetSubTitleText('USD');</td><td></td><td>Sets the SubTitleText</td><td></td><td>In the following example the value of SubTitleText is modified with the
+					  parameter of type <property>String</property>  having value 'USD'.<br>STACKEDAREACHART_1.DSXSetSubTitleText('USD');<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>'USD'</td><td>String</td><td>SubTitleText</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetTooltipValuePrefix('$');</td><td></td><td>Sets the Tooltip Value Prefix</td><td></td><td>In the following example the value of Tooltip Value Prefix is modified with the
+					  parameter of type <property>String</property>  having value '$'.<br>STACKEDAREACHART_1.DSXSetTooltipValuePrefix('$');<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>'$'</td><td>String</td><td>Tooltip Value Prefix</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetTooltipValueSuffix('K');</td><td></td><td>Sets the Tooltip Value Suffix</td><td></td><td>In the following example the value of Tooltip Value Suffix is modified with the
+					  parameter of type <property>String</property>  having value 'K'.<br>STACKEDAREACHART_1.DSXSetTooltipValueSuffix('K');<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>'K'</td><td>String</td><td>Tooltip Value Suffix</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetExportedFileName('VisualBI');</td><td></td><td>Sets the Exported File Name</td><td></td><td>In the following example the value of Exported File Name is modified with the
+					  parameter of type <property>String</property>  having value 'VisualBI'.<br>STACKEDAREACHART_1.DSXSetExportedFileName('VisualBI');<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>'VisualBI'</td><td>String</td><td>Exported File Name</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetDataLabelEnabled(true);</td><td></td><td>Sets the Data Label Enabled</td><td></td><td>In the following example the value of Data Label Enabled is modified with the
+					  parameter of type <property>boolean</property>  having value true.<br>STACKEDAREACHART_1.DSXSetDataLabelEnabled(true);<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>true</td><td>boolean</td><td>Data Label Enabled</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetDataLabelPrefix('$');</td><td></td><td>Sets the Data Label Prefix</td><td></td><td>In the following example the value of Data Label Prefix is modified with the
+					  parameter of type <property>String</property>  having value '$'.<br>STACKEDAREACHART_1.DSXSetDataLabelPrefix('$');<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>'$'</td><td>String</td><td>Data Label Prefix</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetDataLabelSuffix('K');</td><td></td><td>Sets the Data Label Suffix</td><td></td><td>In the following example the value of Data Label Suffix is modified with the
+					  parameter of type <property>String</property>  having value 'K'.<br>STACKEDAREACHART_1.DSXSetDataLabelSuffix('K');<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>'K'</td><td>String</td><td>Data Label Suffix</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetXAxisLabelEnabled(true);</td><td></td><td>Sets the XAxis Label Enabled</td><td></td><td>In the following example the value of XAxis Label Enabled is modified with the
+					  parameter of type <property>boolean</property>  having value true.<br>STACKEDAREACHART_1.DSXSetXAxisLabelEnabled(true);<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>true</td><td>boolean</td><td>XAxis Label Enabled</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetXAxisLabelPrefix('Q');</td><td></td><td>Sets the X-Axis Label Prefix</td><td></td><td>In the following example the value of X-Axis Label Prefix is modified with the
+					  parameter of type <property>String</property>  having value 'Q'.<br>STACKEDAREACHART_1.DSXSetXAxisLabelPrefix('Q');<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>'Q'</td><td>String</td><td>X-Axis Label Prefix</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetXAxisLabelSuffix('14');</td><td></td><td>Sets the X-Axis Label Suffix</td><td></td><td>In the following example the value of X-Axis Label Suffix is modified with the
+					  parameter of type <property>String</property>  having value '14'.<br>STACKEDAREACHART_1.DSXSetXAxisLabelSuffix('14');<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>'14'</td><td>String</td><td>X-Axis Label Suffix</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetXAxisTitleEnabled(true);</td><td></td><td>Sets the XAxis Title Enabled</td><td></td><td>In the following example the value of XAxis Title Enabled is modified with the
+					  parameter of type <property>boolean</property>  having value true.<br>STACKEDAREACHART_1.DSXSetXAxisTitleEnabled(true);<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>true</td><td>boolean</td><td>XAxis Title Enabled</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetXAxisTitleText('Sales');</td><td></td><td>Sets the XAxisTitleText</td><td></td><td>In the following example the value of XAxisTitleText is modified with the
+					  parameter of type <property>String</property>  having value 'Sales'.<br>STACKEDAREACHART_1.DSXSetXAxisTitleText('Sales');<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>'Sales'</td><td>String</td><td>XAxisTitleText</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetXAxisPlotBandEnabled(true);</td><td></td><td>Sets the X-Axis PlotBand Enabled</td><td></td><td>In the following example the value of X-Axis PlotBand Enabled is modified with the
+					  parameter of type <property>boolean</property>  having value true.<br>STACKEDAREACHART_1.DSXSetXAxisPlotBandEnabled(true);<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>true</td><td>boolean</td><td>X-Axis PlotBand Enabled</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetXAxisPlotBandFrom(86);</td><td></td><td>Sets the X-Axis PlotBand From</td><td></td><td>In the following example the value of X-Axis PlotBand From is modified with the
+					  parameter of type <property>int</property>  having value 86.<br>STACKEDAREACHART_1.DSXSetXAxisPlotBandFrom(86);<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>86</td><td>int</td><td>X-Axis PlotBand From</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetXAxisPlotBandTo(86);</td><td></td><td>Sets the X-Axis PlotBand To</td><td></td><td>In the following example the value of X-Axis PlotBand To is modified with the
+					  parameter of type <property>int</property>  having value 86.<br>STACKEDAREACHART_1.DSXSetXAxisPlotBandTo(86);<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>86</td><td>int</td><td>X-Axis PlotBand To</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetXAxisPlotLineEnabled(true);</td><td></td><td>Sets the X-Axis PlotLine Enabled</td><td></td><td>In the following example the value of X-Axis PlotLine Enabled is modified with the
+					  parameter of type <property>boolean</property>  having value true.<br>STACKEDAREACHART_1.DSXSetXAxisPlotLineEnabled(true);<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>true</td><td>boolean</td><td>X-Axis PlotLine Enabled</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetXAxisPlotLineValue(86);</td><td></td><td>Sets the X-Axis PlotLine Value</td><td></td><td>In the following example the value of X-Axis PlotLine Value is modified with the
+					  parameter of type <property>int</property>  having value 86.<br>STACKEDAREACHART_1.DSXSetXAxisPlotLineValue(86);<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>86</td><td>int</td><td>X-Axis PlotLine Value</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetYAxisLabelEnabled(true);</td><td></td><td>Sets the YAxis Label Enabled</td><td></td><td>In the following example the value of YAxis Label Enabled is modified with the
+					  parameter of type <property>boolean</property>  having value true.<br>STACKEDAREACHART_1.DSXSetYAxisLabelEnabled(true);<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>true</td><td>boolean</td><td>YAxis Label Enabled</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetYAxisLabelPrefix('$');</td><td></td><td>Sets the Y-Axis Label Prefix</td><td></td><td>In the following example the value of Y-Axis Label Prefix is modified with the
+					  parameter of type <property>String</property>  having value '$'.<br>STACKEDAREACHART_1.DSXSetYAxisLabelPrefix('$');<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>'$'</td><td>String</td><td>Y-Axis Label Prefix</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetYAxisLabelSuffix('K');</td><td></td><td>Sets the Y-Axis Label Suffix</td><td></td><td>In the following example the value of Y-Axis Label Suffix is modified with the
+					  parameter of type <property>String</property>  having value 'K'.<br>STACKEDAREACHART_1.DSXSetYAxisLabelSuffix('K');<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>'K'</td><td>String</td><td>Y-Axis Label Suffix</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetYAxisTitleEnabled(true);</td><td></td><td>Sets the YAxis Title Enabled</td><td></td><td>In the following example the value of YAxis Title Enabled is modified with the
+					  parameter of type <property>boolean</property>  having value true.<br>STACKEDAREACHART_1.DSXSetYAxisTitleEnabled(true);<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>true</td><td>boolean</td><td>YAxis Title Enabled</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetYAxisTitleText('Sales');</td><td></td><td>Sets the YAxisTitleText</td><td></td><td>In the following example the value of YAxisTitleText is modified with the
+					  parameter of type <property>String</property>  having value 'Sales'.<br>STACKEDAREACHART_1.DSXSetYAxisTitleText('Sales');<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>'Sales'</td><td>String</td><td>YAxisTitleText</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetYAxisPlotBandEnabled(true);</td><td></td><td>Sets the Y-Axis PlotBand Enabled</td><td></td><td>In the following example the value of Y-Axis PlotBand Enabled is modified with the
+					  parameter of type <property>boolean</property>  having value true.<br>STACKEDAREACHART_1.DSXSetYAxisPlotBandEnabled(true);<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>true</td><td>boolean</td><td>Y-Axis PlotBand Enabled</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetYAxisPlotBandFrom(86);</td><td></td><td>Sets the Y-Axis PlotBand From</td><td></td><td>In the following example the value of Y-Axis PlotBand From is modified with the
+					  parameter of type <property>int</property>  having value 86.<br>STACKEDAREACHART_1.DSXSetYAxisPlotBandFrom(86);<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>86</td><td>int</td><td>Y-Axis PlotBand From</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetYAxisPlotBandTo(86);</td><td></td><td>Sets the Y-Axis PlotBand To</td><td></td><td>In the following example the value of Y-Axis PlotBand To is modified with the
+					  parameter of type <property>int</property>  having value 86.<br>STACKEDAREACHART_1.DSXSetYAxisPlotBandTo(86);<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>86</td><td>int</td><td>Y-Axis PlotBand To</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetYAxisPlotLineEnabled(true);</td><td></td><td>Sets the Y-Axis PlotLine Enabled</td><td></td><td>In the following example the value of Y-Axis PlotLine Enabled is modified with the
+					  parameter of type <property>boolean</property>  having value true.<br>STACKEDAREACHART_1.DSXSetYAxisPlotLineEnabled(true);<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>true</td><td>boolean</td><td>Y-Axis PlotLine Enabled</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetYAxisPlotLineValue(86);</td><td></td><td>Sets the Y-Axis PlotLine Value</td><td></td><td>In the following example the value of Y-Axis PlotLine Value is modified with the
+					  parameter of type <property>int</property>  having value 86.<br>STACKEDAREACHART_1.DSXSetYAxisPlotLineValue(86);<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>86</td><td>int</td><td>Y-Axis PlotLine Value</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetXAxisPlotBandColor("#FF0064");</td><td></td><td>Sets the X-Axis PlotBand Color</td><td></td><td>In the following example the value of X-Axis PlotBand Color is modified with the
+					  parameter of type Color Hex Value  having value "#FF0064".<br>STACKEDAREACHART_1.DSXSetXAxisPlotBandColor("#FF0064");<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>"#FF0064"</td><td>String</td><td>X-Axis PlotBand Color</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetXAxisPlotLineColor("#FF0064");</td><td></td><td>Sets the X-Axis PlotLine Color</td><td></td><td>In the following example the value of X-Axis PlotLine Color is modified with the
+					  parameter of type Color Hex Value  having value "#FF0064".<br>STACKEDAREACHART_1.DSXSetXAxisPlotLineColor("#FF0064");<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>"#FF0064"</td><td>String</td><td>X-Axis PlotLine Color</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetYAxisPlotBandColor("#FF0064");</td><td></td><td>Sets the Y-Axis PlotBand Color</td><td></td><td>In the following example the value of Y-Axis PlotBand Color is modified with the
+					  parameter of type Color Hex Value  having value "#FF0064".<br>STACKEDAREACHART_1.DSXSetYAxisPlotBandColor("#FF0064");<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>"#FF0064"</td><td>String</td><td>Y-Axis PlotBand Color</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetYAxisPlotLineColor("#FF0064");</td><td></td><td>Sets the Y-Axis PlotLine Color</td><td></td><td>In the following example the value of Y-Axis PlotLine Color is modified with the
+					  parameter of type Color Hex Value  having value "#FF0064".<br>STACKEDAREACHART_1.DSXSetYAxisPlotLineColor("#FF0064");<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>"#FF0064"</td><td>String</td><td>Y-Axis PlotLine Color</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
