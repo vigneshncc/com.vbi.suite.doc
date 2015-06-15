@@ -9,7 +9,7 @@
 </topic><topic label="FixedColumnChart">
 <topic label="Advanced Properties" href="html/properties/FixedColumnChart_Properties.html"/>
 </topic><topic label="DualAxesChart">
-<topic label="Advanced Properties" href="html/properties/DualAxesChart_Properties.html"/>
+<topic label="Advanced Properties" href="html/properties/DualAxisChart_Properties.html"/>
 </topic><topic label="MultipleAxesChart">
 <topic label="Advanced Properties" href="html/properties/MultipleAxesChart_Properties.html"/>
 </topic><topic label="Table">
@@ -24,8 +24,6 @@
 <topic label="Advanced Properties" href="html/properties/ScriptBox_Properties.html"/>
 </topic><topic label="Menu">
 <topic label="Advanced Properties" href="html/properties/Menu_Properties.html"/>
-</topic><topic label="DailyAnalyzer">
-<topic label="Advanced Properties" href="html/properties/DailyAnalyzer_Properties.html"/>
 </topic><topic label="LocationAnalyzer">
 <topic label="Advanced Properties" href="html/properties/LocationAnalyzer_Properties.html"/>
 </topic><topic label="PeriodSelectorYM">

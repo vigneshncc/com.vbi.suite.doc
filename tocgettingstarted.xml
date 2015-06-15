@@ -13,7 +13,7 @@
 </topic><topic label="FixedColumnChart">
 <topic label="Features" href="html/concepts/FixedColumnChart_About.html"/>
 </topic><topic label="DualAxesChart">
-<topic label="Features" href="html/concepts/DualAxesChart_About.html"/>
+<topic label="Features" href="html/concepts/DualAxisChart_About.html"/>
 </topic><topic label="MultipleAxesChart">
 <topic label="Features" href="html/concepts/MultipleAxesChart_About.html"/>
 </topic><topic label="Table">
@@ -28,8 +28,6 @@
 <topic label="Features" href="html/concepts/ScriptBox_About.html"/>
 </topic><topic label="Menu">
 <topic label="Features" href="html/concepts/Menu_About.html"/>
-</topic><topic label="DailyAnalyzer">
-<topic label="Features" href="html/concepts/DailyAnalyzer_About.html"/>
 </topic><topic label="LocationAnalyzer">
 <topic label="Features" href="html/concepts/LocationAnalyzer_About.html"/>
 </topic><topic label="PeriodSelectorYM">
