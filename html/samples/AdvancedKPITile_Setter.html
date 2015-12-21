@@ -1,0 +1,1263 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<style type="text/css">
+table.hovertable {
+	font-family: verdana,arial,sans-serif;
+	font-size:11px;
+	color:#333333;
+	border-width: 1px;
+	border-color: #999999;
+	border-collapse: collapse;
+}
+table.hovertable th {
+	background-color:#c3dde0;
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #a9c6c9;
+}
+table.hovertable tr {
+	background-color:#d4e3e5;
+}
+table.hovertable td {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #a9c6c9;
+}
+</style>
+</head>
+<body>
+<h1>AdvancedKPITile</h1>
+<br>
+<h2>Setter Functions</h2>
+<table class="hovertable">
+<th>
+<tr>
+<td><B>Function Name</B></td><td></td><td><B>Description</B></td><td></td><td><B>Example</B></td><td></td><td><B>Parameters</B></td>
+</tr>
+</th>
+<tr>
+<td>DSXSetTitleText("strTitleText");</td><td></td><td>Sets the Title</td><td></td><td>
+					  In the following example the value of Title is modified with the
+					  parameter of type <property>String</property> having value "strTitleText".<br>ADVANCEDKPITILE_1.DSXSetTitleText("strTitleText");<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>"strTitleText"</td><td>String</td><td>Title</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetSubTitleText("strSubTitleText");</td><td></td><td>Sets the Sub title</td><td></td><td>
+					  In the following example the value of Sub title is modified with the
+					  parameter of type <property>String</property> having value "strSubTitleText".<br>ADVANCEDKPITILE_1.DSXSetSubTitleText("strSubTitleText");<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>"strSubTitleText"</td><td>String</td><td>Sub title</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetFooterText("strFooterText");</td><td></td><td>Sets the Footer</td><td></td><td>
+					  In the following example the value of Footer is modified with the
+					  parameter of type <property>String</property> having value "strFooterText".<br>ADVANCEDKPITILE_1.DSXSetFooterText("strFooterText");<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>"strFooterText"</td><td>String</td><td>Footer</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetIconURL("strIconURL");</td><td></td><td>Sets the Icon</td><td></td><td>
+					  In the following example the value of Icon is modified with the
+					  parameter of type <property>String</property> having value "strIconURL".<br>ADVANCEDKPITILE_1.DSXSetIconURL("strIconURL");<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>"strIconURL"</td><td>String</td><td>Icon</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetChartType('spline');</td><td></td><td>Sets the Chart Type</td><td></td><td>In the following example the value of Chart Type is modified with the parameter of type <property>String</property>  having value 'spline'.
+					  <br>These are the available options to be used : area, line, column, bar, spline.<br>ADVANCEDKPITILE_1.DSXSetChartType('spline');<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>'spline'</td><td>String</td><td>Chart Type</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetChartBottomMargin("strChartBottomMargin");</td><td></td><td>Sets the chartmarginbottom</td><td></td><td>
+					  In the following example the value of chartmarginbottom is modified with the
+					  parameter of type <property>String</property> having value "strChartBottomMargin".<br>ADVANCEDKPITILE_1.DSXSetChartBottomMargin("strChartBottomMargin");<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>"strChartBottomMargin"</td><td>String</td><td>chartmarginbottom</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetChartLeftMargin("strChartLeftMargin");</td><td></td><td>Sets the chartmarginleft</td><td></td><td>
+					  In the following example the value of chartmarginleft is modified with the
+					  parameter of type <property>String</property> having value "strChartLeftMargin".<br>ADVANCEDKPITILE_1.DSXSetChartLeftMargin("strChartLeftMargin");<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>"strChartLeftMargin"</td><td>String</td><td>chartmarginleft</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetChartRightMargin("strChartRightMargin");</td><td></td><td>Sets the chartmarginright</td><td></td><td>
+					  In the following example the value of chartmarginright is modified with the
+					  parameter of type <property>String</property> having value "strChartRightMargin".<br>ADVANCEDKPITILE_1.DSXSetChartRightMargin("strChartRightMargin");<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>"strChartRightMargin"</td><td>String</td><td>chartmarginright</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetChartTopMargin("strChartTopMargin");</td><td></td><td>Sets the chartmargintop</td><td></td><td>
+					  In the following example the value of chartmargintop is modified with the
+					  parameter of type <property>String</property> having value "strChartTopMargin".<br>ADVANCEDKPITILE_1.DSXSetChartTopMargin("strChartTopMargin");<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>"strChartTopMargin"</td><td>String</td><td>chartmargintop</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetChartBottomPadding("strChartBottomPadding");</td><td></td><td>Sets the chartpaddingbottom</td><td></td><td>
+					  In the following example the value of chartpaddingbottom is modified with the
+					  parameter of type <property>String</property> having value "strChartBottomPadding".<br>ADVANCEDKPITILE_1.DSXSetChartBottomPadding("strChartBottomPadding");<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>"strChartBottomPadding"</td><td>String</td><td>chartpaddingbottom</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetChartLeftPadding("strChartLeftPadding");</td><td></td><td>Sets the chartpaddingleft</td><td></td><td>
+					  In the following example the value of chartpaddingleft is modified with the
+					  parameter of type <property>String</property> having value "strChartLeftPadding".<br>ADVANCEDKPITILE_1.DSXSetChartLeftPadding("strChartLeftPadding");<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>"strChartLeftPadding"</td><td>String</td><td>chartpaddingleft</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetChartRightPadding("strChartRightPadding");</td><td></td><td>Sets the chartpaddingright</td><td></td><td>
+					  In the following example the value of chartpaddingright is modified with the
+					  parameter of type <property>String</property> having value "strChartRightPadding".<br>ADVANCEDKPITILE_1.DSXSetChartRightPadding("strChartRightPadding");<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>"strChartRightPadding"</td><td>String</td><td>chartpaddingright</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetChartTopPadding("strChartTopPadding");</td><td></td><td>Sets the chartpaddingtop</td><td></td><td>
+					  In the following example the value of chartpaddingtop is modified with the
+					  parameter of type <property>String</property> having value "strChartTopPadding".<br>ADVANCEDKPITILE_1.DSXSetChartTopPadding("strChartTopPadding");<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>"strChartTopPadding"</td><td>String</td><td>chartpaddingtop</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetChartPanKey('shift');</td><td></td><td>Sets the chartpankey</td><td></td><td>In the following example the value of chartpankey is modified with the parameter of type <property>String</property>  having value 'shift'.
+					  <br>These are the available options to be used : shift, ctrl.<br>ADVANCEDKPITILE_1.DSXSetChartPanKey('shift');<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>'shift'</td><td>String</td><td>chartpankey</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetChartPanning(true);</td><td></td><td>Sets the chartpanning</td><td></td><td>
+					  In the following example the value of chartpanning is modified with the
+					  parameter of type <property>boolean</property> having value true.<br>ADVANCEDKPITILE_1.DSXSetChartPanning(true);<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>true</td><td>boolean</td><td>chartpanning</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetChartPinchType('xy');</td><td></td><td>Sets the chartpinchtype</td><td></td><td>In the following example the value of chartpinchtype is modified with the parameter of type <property>String</property>  having value 'xy'.
+					  <br>These are the available options to be used : xy, x, y.<br>ADVANCEDKPITILE_1.DSXSetChartPinchType('xy');<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>'xy'</td><td>String</td><td>chartpinchtype</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetPlotShadow(true);</td><td></td><td>Sets the plotshadow</td><td></td><td>
+					  In the following example the value of plotshadow is modified with the
+					  parameter of type <property>boolean</property> having value true.<br>ADVANCEDKPITILE_1.DSXSetPlotShadow(true);<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>true</td><td>boolean</td><td>plotshadow</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetChartZoomType('xy');</td><td></td><td>Sets the chartzoomtype</td><td></td><td>In the following example the value of chartzoomtype is modified with the parameter of type <property>String</property>  having value 'xy'.
+					  <br>These are the available options to be used : xy, x, y.<br>ADVANCEDKPITILE_1.DSXSetChartZoomType('xy');<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>'xy'</td><td>String</td><td>chartzoomtype</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetHorizontalZoomButtonAlign("strHorizontalZoomButtonAlign");</td><td></td><td>Sets the Zoom Button Alignment</td><td></td><td>
+					  In the following example the value of Zoom Button Alignment is modified with the
+					  parameter of type <property>String</property> having value "strHorizontalZoomButtonAlign".<br>ADVANCEDKPITILE_1.DSXSetHorizontalZoomButtonAlign("strHorizontalZoomButtonAlign");<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>"strHorizontalZoomButtonAlign"</td><td>String</td><td>Zoom Button Alignment</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetVerticalZoomButtonAlign("strVerticalZoomButtonAlign");</td><td></td><td>Sets the Zoom Button Vertical Alignment</td><td></td><td>
+					  In the following example the value of Zoom Button Vertical Alignment is modified with the
+					  parameter of type <property>String</property> having value "strVerticalZoomButtonAlign".<br>ADVANCEDKPITILE_1.DSXSetVerticalZoomButtonAlign("strVerticalZoomButtonAlign");<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>"strVerticalZoomButtonAlign"</td><td>String</td><td>Zoom Button Vertical Alignment</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetDataLabelEnabled(true);</td><td></td><td>Sets the Data Label Enabled</td><td></td><td>
+					  In the following example the value of Data Label Enabled is modified with the
+					  parameter of type <property>boolean</property> having value true.<br>ADVANCEDKPITILE_1.DSXSetDataLabelEnabled(true);<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>true</td><td>boolean</td><td>Data Label Enabled</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetChartBackgroundColor("#FF0064");</td><td></td><td>Sets the Plot Background Color</td><td></td><td>
+					  In the following example the value of Plot Background Color is modified with the
+					  parameter of type Color Hex Value having value "#FF0064".<br>ADVANCEDKPITILE_1.DSXSetChartBackgroundColor("#FF0064");<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>"#FF0064"</td><td>String</td><td>Plot Background Color</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetChartBorderColor("#FF0064");</td><td></td><td>Sets the Plot Border Color</td><td></td><td>
+					  In the following example the value of Plot Border Color is modified with the
+					  parameter of type Color Hex Value having value "#FF0064".<br>ADVANCEDKPITILE_1.DSXSetChartBorderColor("#FF0064");<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>"#FF0064"</td><td>String</td><td>Plot Border Color</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetChartBorderWidth(86);</td><td></td><td>Sets the Plot Border Width</td><td></td><td>
+					  In the following example the value of Plot Border Width is modified with the
+					  parameter of type <property>int</property> having value 86.<br>ADVANCEDKPITILE_1.DSXSetChartBorderWidth(86);<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>86</td><td>int</td><td>Plot Border Width</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetZoomButtonBackgroundColor("#FF0064");</td><td></td><td>Sets the Zoom Button Background Color</td><td></td><td>
+					  In the following example the value of Zoom Button Background Color is modified with the
+					  parameter of type Color Hex Value having value "#FF0064".<br>ADVANCEDKPITILE_1.DSXSetZoomButtonBackgroundColor("#FF0064");<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>"#FF0064"</td><td>String</td><td>Zoom Button Background Color</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetZoomButtonTextColor("#FF0064");</td><td></td><td>Sets the Zoom Button Text Color</td><td></td><td>
+					  In the following example the value of Zoom Button Text Color is modified with the
+					  parameter of type Color Hex Value having value "#FF0064".<br>ADVANCEDKPITILE_1.DSXSetZoomButtonTextColor("#FF0064");<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>"#FF0064"</td><td>String</td><td>Zoom Button Text Color</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetZoomButtonRadius(86);</td><td></td><td>Sets the Zoom Button Radius</td><td></td><td>
+					  In the following example the value of Zoom Button Radius is modified with the
+					  parameter of type <property>int</property> having value 86.<br>ADVANCEDKPITILE_1.DSXSetZoomButtonRadius(86);<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>86</td><td>int</td><td>Zoom Button Radius</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetZoomButtonHoverBackgroundColor("#FF0064");</td><td></td><td>Sets the Zoom Button Hover Background Color</td><td></td><td>
+					  In the following example the value of Zoom Button Hover Background Color is modified with the
+					  parameter of type Color Hex Value having value "#FF0064".<br>ADVANCEDKPITILE_1.DSXSetZoomButtonHoverBackgroundColor("#FF0064");<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>"#FF0064"</td><td>String</td><td>Zoom Button Hover Background Color</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetZoomButtonHoverTextColor("#FF0064");</td><td></td><td>Sets the Zoom Button Hover Text Color</td><td></td><td>
+					  In the following example the value of Zoom Button Hover Text Color is modified with the
+					  parameter of type Color Hex Value having value "#FF0064".<br>ADVANCEDKPITILE_1.DSXSetZoomButtonHoverTextColor("#FF0064");<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>"#FF0064"</td><td>String</td><td>Zoom Button Hover Text Color</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetZoomSelectionAreaBackgroundColor("#FF0064");</td><td></td><td>Sets the Zoomed Area Fill</td><td></td><td>
+					  In the following example the value of Zoomed Area Fill is modified with the
+					  parameter of type Color Hex Value having value "#FF0064".<br>ADVANCEDKPITILE_1.DSXSetZoomSelectionAreaBackgroundColor("#FF0064");<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>"#FF0064"</td><td>String</td><td>Zoomed Area Fill</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetDatalabelTextColor("#FF0064");</td><td></td><td>Sets the Datalabel Text Color</td><td></td><td>
+					  In the following example the value of Datalabel Text Color is modified with the
+					  parameter of type Color Hex Value having value "#FF0064".<br>ADVANCEDKPITILE_1.DSXSetDatalabelTextColor("#FF0064");<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>"#FF0064"</td><td>String</td><td>Datalabel Text Color</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetDatalabelFontWeight("strDatalabelFontWeight");</td><td></td><td>Sets the Datalabel Font Weight</td><td></td><td>
+					  In the following example the value of Datalabel Font Weight is modified with the
+					  parameter of type <property>String</property> having value "strDatalabelFontWeight".<br>ADVANCEDKPITILE_1.DSXSetDatalabelFontWeight("strDatalabelFontWeight");<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>"strDatalabelFontWeight"</td><td>String</td><td>Datalabel Font Weight</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetDatalabelFontSize(86);</td><td></td><td>Sets the Datalabel Font Size</td><td></td><td>
+					  In the following example the value of Datalabel Font Size is modified with the
+					  parameter of type <property>int</property> having value 86.<br>ADVANCEDKPITILE_1.DSXSetDatalabelFontSize(86);<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>86</td><td>int</td><td>Datalabel Font Size</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetDatalabelFontFamily("strDatalabelFontFamily");</td><td></td><td>Sets the Datalabel Font Family</td><td></td><td>
+					  In the following example the value of Datalabel Font Family is modified with the
+					  parameter of type <property>String</property> having value "strDatalabelFontFamily".<br>ADVANCEDKPITILE_1.DSXSetDatalabelFontFamily("strDatalabelFontFamily");<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>"strDatalabelFontFamily"</td><td>String</td><td>Datalabel Font Family</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetKPIBorderStyle("strKPIBorderStyle");</td><td></td><td>Sets the KPI Border Style</td><td></td><td>
+					  In the following example the value of KPI Border Style is modified with the
+					  parameter of type <property>String</property> having value "strKPIBorderStyle".<br>ADVANCEDKPITILE_1.DSXSetKPIBorderStyle("strKPIBorderStyle");<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>"strKPIBorderStyle"</td><td>String</td><td>KPI Border Style</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetKPIBorderWidth(86);</td><td></td><td>Sets the KPI Border Width</td><td></td><td>
+					  In the following example the value of KPI Border Width is modified with the
+					  parameter of type <property>int</property> having value 86.<br>ADVANCEDKPITILE_1.DSXSetKPIBorderWidth(86);<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>86</td><td>int</td><td>KPI Border Width</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetKPIBorderColor("#FF0064");</td><td></td><td>Sets the KPI Border Color</td><td></td><td>
+					  In the following example the value of KPI Border Color is modified with the
+					  parameter of type Color Hex Value having value "#FF0064".<br>ADVANCEDKPITILE_1.DSXSetKPIBorderColor("#FF0064");<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>"#FF0064"</td><td>String</td><td>KPI Border Color</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetKPIBorderRadius(86);</td><td></td><td>Sets the KPI Border Radius</td><td></td><td>
+					  In the following example the value of KPI Border Radius is modified with the
+					  parameter of type <property>int</property> having value 86.<br>ADVANCEDKPITILE_1.DSXSetKPIBorderRadius(86);<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>86</td><td>int</td><td>KPI Border Radius</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetKPIBackgroundColor("#FF0064");</td><td></td><td>Sets the KPI Background Color</td><td></td><td>
+					  In the following example the value of KPI Background Color is modified with the
+					  parameter of type Color Hex Value having value "#FF0064".<br>ADVANCEDKPITILE_1.DSXSetKPIBackgroundColor("#FF0064");<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>"#FF0064"</td><td>String</td><td>KPI Background Color</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetSubTitleFontWeight("strSubTitleFontWeight");</td><td></td><td>Sets the subtitlefontweight</td><td></td><td>
+					  In the following example the value of subtitlefontweight is modified with the
+					  parameter of type <property>String</property> having value "strSubTitleFontWeight".<br>ADVANCEDKPITILE_1.DSXSetSubTitleFontWeight("strSubTitleFontWeight");<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>"strSubTitleFontWeight"</td><td>String</td><td>subtitlefontweight</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetSubTitleFontFamily("strSubTitleFontFamily");</td><td></td><td>Sets the subtitlefontfamily</td><td></td><td>
+					  In the following example the value of subtitlefontfamily is modified with the
+					  parameter of type <property>String</property> having value "strSubTitleFontFamily".<br>ADVANCEDKPITILE_1.DSXSetSubTitleFontFamily("strSubTitleFontFamily");<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>"strSubTitleFontFamily"</td><td>String</td><td>subtitlefontfamily</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetTitleFontWeight("strTitleFontWeight");</td><td></td><td>Sets the titlefontweight</td><td></td><td>
+					  In the following example the value of titlefontweight is modified with the
+					  parameter of type <property>String</property> having value "strTitleFontWeight".<br>ADVANCEDKPITILE_1.DSXSetTitleFontWeight("strTitleFontWeight");<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>"strTitleFontWeight"</td><td>String</td><td>titlefontweight</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetTitleFontFamily("strTitleFontFamily");</td><td></td><td>Sets the titlefontfamily</td><td></td><td>
+					  In the following example the value of titlefontfamily is modified with the
+					  parameter of type <property>String</property> having value "strTitleFontFamily".<br>ADVANCEDKPITILE_1.DSXSetTitleFontFamily("strTitleFontFamily");<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>"strTitleFontFamily"</td><td>String</td><td>titlefontfamily</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetFooterFontWeight("strFooterFontWeight");</td><td></td><td>Sets the footerfontweight</td><td></td><td>
+					  In the following example the value of footerfontweight is modified with the
+					  parameter of type <property>String</property> having value "strFooterFontWeight".<br>ADVANCEDKPITILE_1.DSXSetFooterFontWeight("strFooterFontWeight");<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>"strFooterFontWeight"</td><td>String</td><td>footerfontweight</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetFooterFontFamily("strFooterFontFamily");</td><td></td><td>Sets the footerfontfamily</td><td></td><td>
+					  In the following example the value of footerfontfamily is modified with the
+					  parameter of type <property>String</property> having value "strFooterFontFamily".<br>ADVANCEDKPITILE_1.DSXSetFooterFontFamily("strFooterFontFamily");<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>"strFooterFontFamily"</td><td>String</td><td>footerfontfamily</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetDataFontWeight("strDataFontWeight");</td><td></td><td>Sets the Data Fontweight</td><td></td><td>
+					  In the following example the value of Data Fontweight is modified with the
+					  parameter of type <property>String</property> having value "strDataFontWeight".<br>ADVANCEDKPITILE_1.DSXSetDataFontWeight("strDataFontWeight");<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>"strDataFontWeight"</td><td>String</td><td>Data Fontweight</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetDataFontFamily("strDataFontFamily");</td><td></td><td>Sets the Data Fontfamily</td><td></td><td>
+					  In the following example the value of Data Fontfamily is modified with the
+					  parameter of type <property>String</property> having value "strDataFontFamily".<br>ADVANCEDKPITILE_1.DSXSetDataFontFamily("strDataFontFamily");<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>"strDataFontFamily"</td><td>String</td><td>Data Fontfamily</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetSuffixFontWeight("strSuffixFontWeight");</td><td></td><td>Sets the Suffix FontWeight</td><td></td><td>
+					  In the following example the value of Suffix FontWeight is modified with the
+					  parameter of type <property>String</property> having value "strSuffixFontWeight".<br>ADVANCEDKPITILE_1.DSXSetSuffixFontWeight("strSuffixFontWeight");<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>"strSuffixFontWeight"</td><td>String</td><td>Suffix FontWeight</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetSuffixFontFamily("strSuffixFontFamily");</td><td></td><td>Sets the Suffix FontFamily</td><td></td><td>
+					  In the following example the value of Suffix FontFamily is modified with the
+					  parameter of type <property>String</property> having value "strSuffixFontFamily".<br>ADVANCEDKPITILE_1.DSXSetSuffixFontFamily("strSuffixFontFamily");<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>"strSuffixFontFamily"</td><td>String</td><td>Suffix FontFamily</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetTitleAlign("strTitleAlign");</td><td></td><td>Sets the Title Alignment</td><td></td><td>
+					  In the following example the value of Title Alignment is modified with the
+					  parameter of type <property>String</property> having value "strTitleAlign".<br>ADVANCEDKPITILE_1.DSXSetTitleAlign("strTitleAlign");<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>"strTitleAlign"</td><td>String</td><td>Title Alignment</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetSubTitleAlign("strSubTitleAlign");</td><td></td><td>Sets the Sub Title Alignment</td><td></td><td>
+					  In the following example the value of Sub Title Alignment is modified with the
+					  parameter of type <property>String</property> having value "strSubTitleAlign".<br>ADVANCEDKPITILE_1.DSXSetSubTitleAlign("strSubTitleAlign");<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>"strSubTitleAlign"</td><td>String</td><td>Sub Title Alignment</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetFooterAlign("strFooterAlign");</td><td></td><td>Sets the Footer Alignment</td><td></td><td>
+					  In the following example the value of Footer Alignment is modified with the
+					  parameter of type <property>String</property> having value "strFooterAlign".<br>ADVANCEDKPITILE_1.DSXSetFooterAlign("strFooterAlign");<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>"strFooterAlign"</td><td>String</td><td>Footer Alignment</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetDataAlign("strDataAlign");</td><td></td><td>Sets the Data Align</td><td></td><td>
+					  In the following example the value of Data Align is modified with the
+					  parameter of type <property>String</property> having value "strDataAlign".<br>ADVANCEDKPITILE_1.DSXSetDataAlign("strDataAlign");<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>"strDataAlign"</td><td>String</td><td>Data Align</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetSuffixAlign("strSuffixAlign");</td><td></td><td>Sets the Suffix Align</td><td></td><td>
+					  In the following example the value of Suffix Align is modified with the
+					  parameter of type <property>String</property> having value "strSuffixAlign".<br>ADVANCEDKPITILE_1.DSXSetSuffixAlign("strSuffixAlign");<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>"strSuffixAlign"</td><td>String</td><td>Suffix Align</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetSuffixFontSize(86);</td><td></td><td>Sets the Suffix FontSize</td><td></td><td>
+					  In the following example the value of Suffix FontSize is modified with the
+					  parameter of type <property>int</property> having value 86.<br>ADVANCEDKPITILE_1.DSXSetSuffixFontSize(86);<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>86</td><td>int</td><td>Suffix FontSize</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetDataFontSize(86);</td><td></td><td>Sets the Data FontSize</td><td></td><td>
+					  In the following example the value of Data FontSize is modified with the
+					  parameter of type <property>int</property> having value 86.<br>ADVANCEDKPITILE_1.DSXSetDataFontSize(86);<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>86</td><td>int</td><td>Data FontSize</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetFooterFontSize(86);</td><td></td><td>Sets the footerfontsize</td><td></td><td>
+					  In the following example the value of footerfontsize is modified with the
+					  parameter of type <property>int</property> having value 86.<br>ADVANCEDKPITILE_1.DSXSetFooterFontSize(86);<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>86</td><td>int</td><td>footerfontsize</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetTitleFontSize(86);</td><td></td><td>Sets the titlefontsize</td><td></td><td>
+					  In the following example the value of titlefontsize is modified with the
+					  parameter of type <property>int</property> having value 86.<br>ADVANCEDKPITILE_1.DSXSetTitleFontSize(86);<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>86</td><td>int</td><td>titlefontsize</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetSubTitleFontSize(86);</td><td></td><td>Sets the subtitlefontsize</td><td></td><td>
+					  In the following example the value of subtitlefontsize is modified with the
+					  parameter of type <property>int</property> having value 86.<br>ADVANCEDKPITILE_1.DSXSetSubTitleFontSize(86);<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>86</td><td>int</td><td>subtitlefontsize</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetSuffixColor("#FF0064");</td><td></td><td>Sets the Suffix Color</td><td></td><td>
+					  In the following example the value of Suffix Color is modified with the
+					  parameter of type Color Hex Value having value "#FF0064".<br>ADVANCEDKPITILE_1.DSXSetSuffixColor("#FF0064");<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>"#FF0064"</td><td>String</td><td>Suffix Color</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetFooterColor("#FF0064");</td><td></td><td>Sets the footercolor</td><td></td><td>
+					  In the following example the value of footercolor is modified with the
+					  parameter of type Color Hex Value having value "#FF0064".<br>ADVANCEDKPITILE_1.DSXSetFooterColor("#FF0064");<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>"#FF0064"</td><td>String</td><td>footercolor</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetDataColor("#FF0064");</td><td></td><td>Sets the Data Color</td><td></td><td>
+					  In the following example the value of Data Color is modified with the
+					  parameter of type Color Hex Value having value "#FF0064".<br>ADVANCEDKPITILE_1.DSXSetDataColor("#FF0064");<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>"#FF0064"</td><td>String</td><td>Data Color</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetSubTitleColor("#FF0064");</td><td></td><td>Sets the subtitlecolor</td><td></td><td>
+					  In the following example the value of subtitlecolor is modified with the
+					  parameter of type Color Hex Value having value "#FF0064".<br>ADVANCEDKPITILE_1.DSXSetSubTitleColor("#FF0064");<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>"#FF0064"</td><td>String</td><td>subtitlecolor</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetTitleColor("#FF0064");</td><td></td><td>Sets the titlecolor</td><td></td><td>
+					  In the following example the value of titlecolor is modified with the
+					  parameter of type Color Hex Value having value "#FF0064".<br>ADVANCEDKPITILE_1.DSXSetTitleColor("#FF0064");<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>"#FF0064"</td><td>String</td><td>titlecolor</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetDecimalSeparator("strDecimalSeparator");</td><td></td><td>Sets the Decimal Separator</td><td></td><td>
+					  In the following example the value of Decimal Separator is modified with the
+					  parameter of type <property>String</property> having value "strDecimalSeparator".<br>ADVANCEDKPITILE_1.DSXSetDecimalSeparator("strDecimalSeparator");<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>"strDecimalSeparator"</td><td>String</td><td>Decimal Separator</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetThousandSeparator("strThousandSeparator");</td><td></td><td>Sets the Thousand Separator</td><td></td><td>
+					  In the following example the value of Thousand Separator is modified with the
+					  parameter of type <property>String</property> having value "strThousandSeparator".<br>ADVANCEDKPITILE_1.DSXSetThousandSeparator("strThousandSeparator");<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>"strThousandSeparator"</td><td>String</td><td>Thousand Separator</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetNoOfDecimals("strNoOfDecimals");</td><td></td><td>Sets the noofdecimals</td><td></td><td>
+					  In the following example the value of noofdecimals is modified with the
+					  parameter of type <property>String</property> having value "strNoOfDecimals".<br>ADVANCEDKPITILE_1.DSXSetNoOfDecimals("strNoOfDecimals");<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>"strNoOfDecimals"</td><td>String</td><td>noofdecimals</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>DSXSetDataValue("strDataValue");</td><td></td><td>Sets the datavalue</td><td></td><td>
+					  In the following example the value of datavalue is modified with the
+					  parameter of type <property>String</property> having value "strDataValue".<br>ADVANCEDKPITILE_1.DSXSetDataValue("strDataValue");<br>
+<br>
+</td><td></td><td>
+<table>
+<th>
+<tr>
+<td>Name</td><td>Type</td><td>Description</td>
+</tr>
+</th>
+<tr>
+<td>"strDataValue"</td><td>String</td><td>datavalue</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
