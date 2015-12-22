@@ -2,31 +2,17 @@
 <?NLS TYPE="org.eclipse.help.toc"?>
 
 <toc label="Developer Guide for VBX Components" topic="html/toc.html">
-	<topic label="Overview of VBX Suite"  href="html/gettingstarted/overview.html"> 
-	</topic>
-	<topic label="Components Overview">
-		<topic label="Product Links" href="html/gettingstarted/links.html" />
-	</topic> 
    <topic label="Getting Started"> 
-      <link toc="AboutChart.xml"/>
-      <link toc="AboutMap.xml"/>
-      <link toc="AboutSelector.xml"/>
-      <link toc="AboutUtil.xml"/>
+      <link toc="tocgettingstarted.xml"/>
    </topic>
    <topic label="Features">
-      <topic href="html/concepts/features.html" label="Features of DSX CHARTS">
+      <topic href="html/concepts/features.html" label="Features of VBX CHARTS">
       </topic>
    </topic>
    <topic label="Properties">
-      <link toc="Chart.xml"/>
-      <link toc="Map.xml"/>
-      <link toc="Selector.xml"/>
-      <link toc="Util.xml"/>
+      <link toc="tocproperties.xml"/>
    </topic>
-   <topic label="Scripting"> 
-      <link toc="ScriptChart.xml"/>
-      <link toc="ScriptMap.xml"/>
-      <link toc="ScriptSelector.xml"/>
-      <link toc="ScriptUtil.xml"/>
+   <topic label="Scripting Samples">
+      <link toc="tocsamples.xml"/>
    </topic>
 </toc>

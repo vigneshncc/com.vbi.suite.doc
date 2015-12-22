@@ -32,6 +32,10 @@
 <topic label="Getter Samples" href="html/samples/LineChart_Getter.html"/>
 <topic label="Setter Samples" href="html/samples/LineChart_Setter.html"/>
 </topic>
+<topic label="ProgressBar">
+<topic label="Getter Samples" href="html/samples/ProgressBar_Getter.html"/>
+<topic label="Setter Samples" href="html/samples/ProgressBar_Setter.html"/>
+</topic>
 <topic label="StackedColumnBarChart">
 <topic label="Getter Samples" href="html/samples/StackedColumnBarChart_Getter.html"/>
 <topic label="Setter Samples" href="html/samples/StackedColumnBarChart_Setter.html"/>
