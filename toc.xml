@@ -2,6 +2,11 @@
 <?NLS TYPE="org.eclipse.help.toc"?>
 
 <toc label="Developer Guide for VBX Components" topic="html/toc.html">
+	<topic label="Overview of VBX Suite"  href="html/gettingstarted/overview.html"> 
+	</topic>
+	<topic label="Components Overview">
+		<topic label="Product Links" href="html/gettingstarted/links.html" />
+	</topic> 
    <topic label="Getting Started"> 
       <link toc="AboutChart.xml"/>
       <link toc="AboutMap.xml"/>
@@ -18,7 +23,7 @@
       <link toc="Selector.xml"/>
       <link toc="Util.xml"/>
    </topic>
-   <topic label="Scripting Samples"> 
+   <topic label="Scripting"> 
       <link toc="ScriptChart.xml"/>
       <link toc="ScriptMap.xml"/>
       <link toc="ScriptSelector.xml"/>

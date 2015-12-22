@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><toc label="VBX Charts">
+<?xml version="1.0" encoding="UTF-8"?>
+<toc label="VBX Charts" link_to="toc.xml#gettingstarted"> 
 <topic label="ChartSelector">
 <topic label="Features" href="html/concepts/ChartSelector_About.html"/>
 </topic>

@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><toc label="VBX Charts">
+<?xml version="1.0" encoding="UTF-8"?>
+<toc label="VBX Charts Properties" link_to="toc.xml#properties">  
 <topic label="ChartSelector">
 <topic label="Advanced Properties" href="html/properties/ChartSelector_Properties.html"/>
 </topic>

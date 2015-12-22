@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><toc label="VBX Utilities">
+<?xml version="1.0" encoding="UTF-8"?>
+<toc label="VBX Utilities"  link_to="toc.xml#properties">  
 <topic label="Table">
 <topic label="Advanced Properties" href="html/properties/Table_Properties.html"/>
 </topic>

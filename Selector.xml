@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><toc label="VBX Selectors">
+<?xml version="1.0" encoding="UTF-8"?>
+<toc label="VBX Selectors" link_to="toc.xml#properties">  
 <topic label="HierarchialFilter">
 <topic label="Advanced Properties" href="html/properties/HierarchialFilter_Properties.html"/>
 </topic>
