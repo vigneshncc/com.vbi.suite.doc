@@ -6,14 +6,15 @@
 	</topic>
 	<topic label="Components Overview">
 		<topic label="Product Links" href="html/gettingstarted/links.html" />
-	</topic> <topic label="HierarchialFilter">
+	</topic> 
+<topic label="HierarchialFilter">
 <topic label="Features" href="html/concepts/HierarchialFilter_About.html"/>
 </topic><topic label="CustomDataSource">
 <topic label="Features" href="html/concepts/CustomDataSource_About.html"/>
 </topic><topic label="FixedColumnChart">
 <topic label="Features" href="html/concepts/FixedColumnChart_About.html"/>
 </topic><topic label="DualAxesChart">
-<topic label="Features" href="html/concepts/DualAxisChart_About.html"/>
+<topic label="Features" href="html/concepts/DualAxesChart_About.html"/>
 </topic><topic label="MultipleAxesChart">
 <topic label="Features" href="html/concepts/MultipleAxesChart_About.html"/>
 </topic><topic label="Table">
@@ -96,4 +97,5 @@
 <topic label="Features" href="html/concepts/HeatMapChart_About.html"/>
 </topic><topic label="VbiPdfExport">
 <topic label="Features" href="html/concepts/VbiPdfExport_About.html"/>
-</topic></toc>
+</topic>
+        </toc>
