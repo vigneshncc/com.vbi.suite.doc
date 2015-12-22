@@ -27,10 +27,13 @@
               -->
               <goal>generate-pdf</goal>
             </goals>
+             <phase>prepare-package</phase>
             <configuration>
-              <!-- per execution configuration -->
-              <includes>toc.xml</includes>
-              <draftMode>yes</draftMode>
+                <sourceDirectory>${project.basedir}/UserManual</sourceDirectory>
+                <xincludeSupported>true</xincludeSupported>
+                <includes>${project.basedir}/*.xml</includes>
+                <includes>${project.basedir}/UserManual/**/*.xml</includes>
+                <targetDirectory>${project.build.directory}/UserManual</targetDirectory>
             </configuration>
           </execution>
         </executions>
