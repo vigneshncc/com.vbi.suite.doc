@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><toc label="VBX Selectors">
+<topic label="HierarchialFilter">
+<topic label="Advanced Properties" href="html/properties/HierarchialFilter_Properties.html"/>
+</topic>
+<topic label="GridBox">
+<topic label="Advanced Properties" href="html/properties/GridBox_Properties.html"/>
+</topic>
+<topic label="PeriodSelectorYM">
+<topic label="Advanced Properties" href="html/properties/PeriodSelectorYM_Properties.html"/>
+</topic>
+<topic label="PeriodSelectorYQM">
+<topic label="Advanced Properties" href="html/properties/PeriodSelectorYQM_Properties.html"/>
+</topic>
+<topic label="PeriodSelectorYQMM">
+<topic label="Advanced Properties" href="html/properties/PeriodSelectorYQMM_Properties.html"/>
+</topic>
+<topic label="RangeSlider">
+<topic label="Advanced Properties" href="html/properties/RangeSlider_Properties.html"/>
+</topic>
+<topic label="FacetFilter">
+<topic label="Advanced Properties" href="html/properties/FacetFilter_Properties.html"/>
+</topic>
+<topic label="ListBox">
+<topic label="Advanced Properties" href="html/properties/ListBox_Properties.html"/>
+</topic>
+<topic label="ComboBox">
+<topic label="Advanced Properties" href="html/properties/ComboBox_Properties.html"/>
+</topic>
+</toc>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><toc label="VBX Maps">
+<topic label="LocationAnalyzer">
+<topic label="Getter Samples" href="html/samples/LocationAnalyzer_Getter.html"/>
+<topic label="Setter Samples" href="html/samples/LocationAnalyzer_Setter.html"/>
+</topic>
+<topic label="HCMap">
+<topic label="Getter Samples" href="html/samples/HCMap_Getter.html"/>
+<topic label="Setter Samples" href="html/samples/HCMap_Setter.html"/>
+</topic>
+</toc>

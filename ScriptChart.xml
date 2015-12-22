@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?> 
-<toc label="Samples" link_to="toc.xml#samples"> 
-<toc label="VBX Charts">
+<?xml version="1.0" encoding="UTF-8"?><toc label="VBX Charts">
 <topic label="ChartSelector">
 <topic label="Getter Samples" href="html/samples/ChartSelector_Getter.html"/>
 <topic label="Setter Samples" href="html/samples/ChartSelector_Setter.html"/>
@@ -32,10 +30,6 @@
 <topic label="LineChart">
 <topic label="Getter Samples" href="html/samples/LineChart_Getter.html"/>
 <topic label="Setter Samples" href="html/samples/LineChart_Setter.html"/>
-</topic>
-<topic label="ProgressBar">
-<topic label="Getter Samples" href="html/samples/ProgressBar_Getter.html"/>
-<topic label="Setter Samples" href="html/samples/ProgressBar_Setter.html"/>
 </topic>
 <topic label="StackedColumnBarChart">
 <topic label="Getter Samples" href="html/samples/StackedColumnBarChart_Getter.html"/>
@@ -157,121 +151,4 @@
 <topic label="Getter Samples" href="html/samples/PolarChart_Getter.html"/>
 <topic label="Setter Samples" href="html/samples/PolarChart_Setter.html"/>
 </topic>
-</toc>
-
-
-<toc label="VBX Maps">
-<topic label="LocationAnalyzer">
-<topic label="Getter Samples" href="html/samples/LocationAnalyzer_Getter.html"/>
-<topic label="Setter Samples" href="html/samples/LocationAnalyzer_Setter.html"/>
-</topic>
-<topic label="HCMap">
-<topic label="Getter Samples" href="html/samples/HCMap_Getter.html"/>
-<topic label="Setter Samples" href="html/samples/HCMap_Setter.html"/>
-</topic>
-</toc>
-
-
-<toc label="VBX Selectors">
-<topic label="HierarchialFilter">
-<topic label="Getter Samples" href="html/samples/HierarchialFilter_Getter.html"/>
-<topic label="Setter Samples" href="html/samples/HierarchialFilter_Setter.html"/>
-</topic>
-<topic label="GridBox">
-<topic label="Getter Samples" href="html/samples/GridBox_Getter.html"/>
-<topic label="Setter Samples" href="html/samples/GridBox_Setter.html"/>
-</topic>
-<topic label="PeriodSelectorYM">
-<topic label="Getter Samples" href="html/samples/PeriodSelectorYM_Getter.html"/>
-<topic label="Setter Samples" href="html/samples/PeriodSelectorYM_Setter.html"/>
-</topic>
-<topic label="PeriodSelectorYQM">
-<topic label="Getter Samples" href="html/samples/PeriodSelectorYQM_Getter.html"/>
-<topic label="Setter Samples" href="html/samples/PeriodSelectorYQM_Setter.html"/>
-</topic>
-<topic label="PeriodSelectorYQMM">
-<topic label="Getter Samples" href="html/samples/PeriodSelectorYQMM_Getter.html"/>
-<topic label="Setter Samples" href="html/samples/PeriodSelectorYQMM_Setter.html"/>
-</topic>
-<topic label="RangeSlider">
-<topic label="Getter Samples" href="html/samples/RangeSlider_Getter.html"/>
-<topic label="Setter Samples" href="html/samples/RangeSlider_Setter.html"/>
-</topic>
-<topic label="FacetFilter">
-<topic label="Getter Samples" href="html/samples/FacetFilter_Getter.html"/>
-<topic label="Setter Samples" href="html/samples/FacetFilter_Setter.html"/>
-</topic>
-<topic label="ListBox">
-<topic label="Getter Samples" href="html/samples/ListBox_Getter.html"/>
-<topic label="Setter Samples" href="html/samples/ListBox_Setter.html"/>
-</topic>
-<topic label="ComboBox">
-<topic label="Getter Samples" href="html/samples/ComboBox_Getter.html"/>
-<topic label="Setter Samples" href="html/samples/ComboBox_Setter.html"/>
-</topic>
-</toc>
-
-
-<toc label="VBX Utilities">
-<topic label="Table">
-<topic label="Getter Samples" href="html/samples/Table_Getter.html"/>
-<topic label="Setter Samples" href="html/samples/Table_Setter.html"/>
-</topic>
-<topic label="KPITile">
-<topic label="Getter Samples" href="html/samples/KPITile_Getter.html"/>
-<topic label="Setter Samples" href="html/samples/KPITile_Setter.html"/>
-</topic>
-<topic label="HTMLBox">
-<topic label="Getter Samples" href="html/samples/HTMLBox_Getter.html"/>
-<topic label="Setter Samples" href="html/samples/HTMLBox_Setter.html"/>
-</topic>
-<topic label="ScriptBox">
-<topic label="Getter Samples" href="html/samples/ScriptBox_Getter.html"/>
-<topic label="Setter Samples" href="html/samples/ScriptBox_Setter.html"/>
-</topic>
-<topic label="Menu">
-<topic label="Getter Samples" href="html/samples/Menu_Getter.html"/>
-<topic label="Setter Samples" href="html/samples/Menu_Setter.html"/>
-</topic>
-<topic label="Searchbox">
-<topic label="Getter Samples" href="html/samples/Searchbox_Getter.html"/>
-<topic label="Setter Samples" href="html/samples/Searchbox_Setter.html"/>
-</topic>
-<topic label="advancedlabel">
-<topic label="Getter Samples" href="html/samples/advancedlabel_Getter.html"/>
-<topic label="Setter Samples" href="html/samples/advancedlabel_Setter.html"/>
-</topic>
-<topic label="WhatIfAnalyzer">
-<topic label="Getter Samples" href="html/samples/WhatIfAnalyzer_Getter.html"/>
-<topic label="Setter Samples" href="html/samples/WhatIfAnalyzer_Setter.html"/>
-</topic>
-<topic label="VbiPdfExport">
-<topic label="Getter Samples" href="html/samples/VbiPdfExport_Getter.html"/>
-<topic label="Setter Samples" href="html/samples/VbiPdfExport_Setter.html"/>
-</topic>
-<topic label="ResponsiveUI">
-<topic label="Getter Samples" href="html/samples/ResponsiveUI_Getter.html"/>
-<topic label="Setter Samples" href="html/samples/ResponsiveUI_Setter.html"/>
-</topic>
-<topic label="PPTExport">
-<topic label="Getter Samples" href="html/samples/PPTExport_Getter.html"/>
-<topic label="Setter Samples" href="html/samples/PPTExport_Setter.html"/>
-</topic>
-<topic label="TrendIcon">
-<topic label="Getter Samples" href="html/samples/TrendIcon_Getter.html"/>
-<topic label="Setter Samples" href="html/samples/TrendIcon_Setter.html"/>
-</topic>
-<topic label="MailExport">
-<topic label="Getter Samples" href="html/samples/MailExport_Getter.html"/>
-<topic label="Setter Samples" href="html/samples/MailExport_Setter.html"/>
-</topic>
-<topic label="AdvancedKPITile">
-<topic label="Getter Samples" href="html/samples/AdvancedKPITile_Getter.html"/>
-<topic label="Setter Samples" href="html/samples/AdvancedKPITile_Setter.html"/>
-</topic>
-<topic label="DOCExport">
-<topic label="Getter Samples" href="html/samples/DOCExport_Getter.html"/>
-<topic label="Setter Samples" href="html/samples/DOCExport_Setter.html"/>
-</topic>
-</toc>
 </toc>
