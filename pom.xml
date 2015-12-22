@@ -34,23 +34,7 @@
             </configuration>
           </execution>
         </executions>
-        <!--<configuration>
-          <!-- shared configuration 
-          <generatedSourceDirectory>${project.build.directory}/docbkx/generated</generatedSourceDirectory>
-          <xincludeSupported>true</xincludeSupported>
-          <paperType>A4</paperType>
-          <fop1Extensions>1</fop1Extensions>
-
-          <foCustomization>src/docbkx-stylesheet/fo/docbook.xsl</foCustomization>
-          
-          <customizationParameters>
-            <!-- additional XSLT parameters
-            <parameter>
-              <name>key</name>
-              <value>value</value>
-            </parameter>
-          </customizationParameters>
-        </configuration>-->
+        
       </plugin>
     </plugins>
   </build>
