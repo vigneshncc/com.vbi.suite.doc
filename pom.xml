@@ -4,7 +4,7 @@
   <groupId>mygroupd</groupId>
   <artifactId>myartifactId</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <name>Docbkx Maven Quikstart Archetype</name>
+  <name>VBX Documentation</name>
   <packaging>pom</packaging>
 
 
@@ -29,13 +29,13 @@
             </goals>
             <configuration>
               <!-- per execution configuration -->
-              <includes>book.xml</includes>
+              <includes>toc.xml</includes>
               <draftMode>yes</draftMode>
             </configuration>
           </execution>
         </executions>
-        <configuration>
-          <!-- shared configuration -->
+        <!--<configuration>
+          <!-- shared configuration 
           <generatedSourceDirectory>${project.build.directory}/docbkx/generated</generatedSourceDirectory>
           <xincludeSupported>true</xincludeSupported>
           <paperType>A4</paperType>
@@ -44,13 +44,13 @@
           <foCustomization>src/docbkx-stylesheet/fo/docbook.xsl</foCustomization>
           
           <customizationParameters>
-            <!-- additional XSLT parameters-->
+            <!-- additional XSLT parameters
             <parameter>
               <name>key</name>
               <value>value</value>
             </parameter>
           </customizationParameters>
-        </configuration>
+        </configuration>-->
       </plugin>
     </plugins>
   </build>
