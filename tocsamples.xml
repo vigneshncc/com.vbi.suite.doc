@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?> 
-
+<toc label="Samples" link_to="toc.xml#samples"> 
 <toc label="VBX Charts">
 <topic label="ChartSelector">
 <topic label="Getter Samples" href="html/samples/ChartSelector_Getter.html"/>
@@ -274,4 +274,4 @@
 <topic label="Setter Samples" href="html/samples/DOCExport_Setter.html"/>
 </topic>
 </toc>
-
+</toc>

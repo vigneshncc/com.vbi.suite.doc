@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?> 
+<toc label="Getting Started" link_to="toc.xml#gettingstarted"> 
+	<topic label="Overview of VBX Suite"  href="html/gettingstarted/overview.html"> 
+	</topic>
+	<topic label="Components Overview">
+		<topic label="Product Links" href="html/gettingstarted/links.html" />
+	</topic> 
 <toc label="VBX Charts">
 <topic label="ChartSelector">
 <topic label="Features" href="html/concepts/ChartSelector_About.html"/>
@@ -206,4 +212,4 @@
 <topic label="Features" href="html/concepts/DOCExport_About.html"/>
 </topic>
 </toc>
-
+</toc>
