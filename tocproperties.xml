@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<toc label="Properties" link_to="toc.xml#properties"> 
+ 
+<topic label="ChartSelector">
+<topic label="Advanced Properties" href="html/properties/ChartSelector_Properties.html"/>
+</topic>
+<topic label="ChartContainer">
+<topic label="Advanced Properties" href="html/properties/ChartContainer_Properties.html"/>
+</topic>
+<topic label="CustomDataSource">
+<topic label="Advanced Properties" href="html/properties/CustomDataSource_Properties.html"/>
+</topic>
+<topic label="FixedColumnChart">
+<topic label="Advanced Properties" href="html/properties/FixedColumnChart_Properties.html"/>
+</topic>
+<topic label="DualAxesChart">
+<topic label="Advanced Properties" href="html/properties/DualAxesChart_Properties.html"/>
+</topic>
+<topic label="MultipleAxesChart">
+<topic label="Advanced Properties" href="html/properties/MultipleAxesChart_Properties.html"/>
+</topic>
+<topic label="MarimekkoChart">
+<topic label="Advanced Properties" href="html/properties/MarimekkoChart_Properties.html"/>
+</topic>
+<topic label="LineChart">
+<topic label="Advanced Properties" href="html/properties/LineChart_Properties.html"/>
+</topic>
+<topic label="ProgressBar">
+<topic label="Advanced Properties" href="html/properties/ProgressBar_Properties.html"/>
+</topic>
+<topic label="StackedColumnBarChart">
+<topic label="Advanced Properties" href="html/properties/StackedColumnBarChart_Properties.html"/>
+</topic>
+<topic label="ColumnBarChart">
+<topic label="Advanced Properties" href="html/properties/ColumnBarChart_Properties.html"/>
+</topic>
+<topic label="ColumnBarDrilldownChart">
+<topic label="Advanced Properties" href="html/properties/ColumnBarDrilldownChart_Properties.html"/>
+</topic>
+<topic label="PieChart">
+<topic label="Advanced Properties" href="html/properties/PieChart_Properties.html"/>
+</topic>
+<topic label="AreaChart">
+<topic label="Advanced Properties" href="html/properties/AreaChart_Properties.html"/>
+</topic>
+<topic label="GroupStackedColumnBarChart">
+<topic label="Advanced Properties" href="html/properties/GroupStackedColumnBarChart_Properties.html"/>
+</topic>
+<topic label="BulletChart">
+<topic label="Advanced Properties" href="html/properties/BulletChart_Properties.html"/>
+</topic>
+<topic label="StackedAreaChart">
+<topic label="Advanced Properties" href="html/properties/StackedAreaChart_Properties.html"/>
+</topic>
+<topic label="NumberCounter">
+<topic label="Advanced Properties" href="html/properties/NumberCounter_Properties.html"/>
+</topic>
+<topic label="CircularCounter">
+<topic label="Advanced Properties" href="html/properties/CircularCounter_Properties.html"/>
+</topic>
+<topic label="FunnelPyramidChart">
+<topic label="Advanced Properties" href="html/properties/FunnelPyramidChart_Properties.html"/>
+</topic>
+<topic label="DonutChart">
+<topic label="Advanced Properties" href="html/properties/DonutChart_Properties.html"/>
+</topic>
+<topic label="SemicircledonutChart">
+<topic label="Advanced Properties" href="html/properties/SemicircledonutChart_Properties.html"/>
+</topic>
+<topic label="CombinationChart">
+<topic label="Advanced Properties" href="html/properties/CombinationChart_Properties.html"/>
+</topic>
+<topic label="BubbleChart">
+<topic label="Advanced Properties" href="html/properties/BubbleChart_Properties.html"/>
+</topic>
+<topic label="ScatterChart">
+<topic label="Advanced Properties" href="html/properties/ScatterChart_Properties.html"/>
+</topic>
+<topic label="SuperCombinationChart">
+<topic label="Advanced Properties" href="html/properties/SuperCombinationChart_Properties.html"/>
+</topic>
+<topic label="AngularGauge">
+<topic label="Advanced Properties" href="html/properties/AngularGauge_Properties.html"/>
+</topic>
+<topic label="FunnelPyramidDrilldownChart">
+<topic label="Advanced Properties" href="html/properties/FunnelPyramidDrilldownChart_Properties.html"/>
+</topic>
+<topic label="SolidGauge">
+<topic label="Advanced Properties" href="html/properties/SolidGauge_Properties.html"/>
+</topic>
+<topic label="SparkLineTableChart">
+<topic label="Advanced Properties" href="html/properties/SparkLineTableChart_Properties.html"/>
+</topic>
+<topic label="SparkLineChart">
+<topic label="Advanced Properties" href="html/properties/SparkLineChart_Properties.html"/>
+</topic>
+<topic label="PieDrilldownChart">
+<topic label="Advanced Properties" href="html/properties/PieDrilldownChart_Properties.html"/>
+</topic>
+<topic label="WaterfallChart">
+<topic label="Advanced Properties" href="html/properties/WaterfallChart_Properties.html"/>
+</topic>
+<topic label="HeatMapChart">
+<topic label="Advanced Properties" href="html/properties/HeatMapChart_Properties.html"/>
+</topic>
+<topic label="RadarChart">
+<topic label="Advanced Properties" href="html/properties/RadarChart_Properties.html"/>
+</topic>
+<topic label="BoxPlotChart">
+<topic label="Advanced Properties" href="html/properties/BoxPlotChart_Properties.html"/>
+</topic>
+<topic label="RiskMatrixChart">
+<topic label="Advanced Properties" href="html/properties/RiskMatrixChart_Properties.html"/>
+</topic>
+<topic label="TagCloud">
+<topic label="Advanced Properties" href="html/properties/TagCloud_Properties.html"/>
+</topic>
+<topic label="PolarChart">
+<topic label="Advanced Properties" href="html/properties/PolarChart_Properties.html"/>
+</topic>
+ 
+<topic label="LocationAnalyzer">
+<topic label="Advanced Properties" href="html/properties/LocationAnalyzer_Properties.html"/>
+</topic>
+<topic label="HCMap">
+<topic label="Advanced Properties" href="html/properties/HCMap_Properties.html"/>
+</topic> 
+<topic label="HierarchialFilter">
+<topic label="Advanced Properties" href="html/properties/HierarchialFilter_Properties.html"/>
+</topic>
+<topic label="GridBox">
+<topic label="Advanced Properties" href="html/properties/GridBox_Properties.html"/>
+</topic>
+<topic label="PeriodSelectorYM">
+<topic label="Advanced Properties" href="html/properties/PeriodSelectorYM_Properties.html"/>
+</topic>
+<topic label="PeriodSelectorYQM">
+<topic label="Advanced Properties" href="html/properties/PeriodSelectorYQM_Properties.html"/>
+</topic>
+<topic label="PeriodSelectorYQMM">
+<topic label="Advanced Properties" href="html/properties/PeriodSelectorYQMM_Properties.html"/>
+</topic>
+<topic label="RangeSlider">
+<topic label="Advanced Properties" href="html/properties/RangeSlider_Properties.html"/>
+</topic>
+<topic label="FacetFilter">
+<topic label="Advanced Properties" href="html/properties/FacetFilter_Properties.html"/>
+</topic>
+<topic label="ListBox">
+<topic label="Advanced Properties" href="html/properties/ListBox_Properties.html"/>
+</topic>
+<topic label="ComboBox">
+<topic label="Advanced Properties" href="html/properties/ComboBox_Properties.html"/>
+</topic> 
+<topic label="Table">
+<topic label="Advanced Properties" href="html/properties/Table_Properties.html"/>
+</topic>
+<topic label="KPITile">
+<topic label="Advanced Properties" href="html/properties/KPITile_Properties.html"/>
+</topic>
+<topic label="HTMLBox">
+<topic label="Advanced Properties" href="html/properties/HTMLBox_Properties.html"/>
+</topic>
+<topic label="ScriptBox">
+<topic label="Advanced Properties" href="html/properties/ScriptBox_Properties.html"/>
+</topic>
+<topic label="Menu">
+<topic label="Advanced Properties" href="html/properties/Menu_Properties.html"/>
+</topic>
+<topic label="Searchbox">
+<topic label="Advanced Properties" href="html/properties/Searchbox_Properties.html"/>
+</topic>
+<topic label="advancedlabel">
+<topic label="Advanced Properties" href="html/properties/advancedlabel_Properties.html"/>
+</topic>
+<topic label="WhatIfAnalyzer">
+<topic label="Advanced Properties" href="html/properties/WhatIfAnalyzer_Properties.html"/>
+</topic>
+<topic label="VbiPdfExport">
+<topic label="Advanced Properties" href="html/properties/VbiPdfExport_Properties.html"/>
+</topic>
+<topic label="ResponsiveUI">
+<topic label="Advanced Properties" href="html/properties/ResponsiveUI_Properties.html"/>
+</topic>
+<topic label="PPTExport">
+<topic label="Advanced Properties" href="html/properties/PPTExport_Properties.html"/>
+</topic>
+<topic label="TrendIcon">
+<topic label="Advanced Properties" href="html/properties/TrendIcon_Properties.html"/>
+</topic>
+<topic label="MailExport">
+<topic label="Advanced Properties" href="html/properties/MailExport_Properties.html"/>
+</topic>
+<topic label="AdvancedKPITile">
+<topic label="Advanced Properties" href="html/properties/AdvancedKPITile_Properties.html"/>
+</topic>
+<topic label="DOCExport">
+<topic label="Advanced Properties" href="html/properties/DOCExport_Properties.html"/>
+</topic> 
+</toc>
