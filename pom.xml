@@ -18,7 +18,7 @@
           <!-- -->
           <execution>
             <id>documentation identifier</id>
-            <phase>pre-site</phase>
+            
             <goals>
               <!--
               <goal>generate-html</goal>
